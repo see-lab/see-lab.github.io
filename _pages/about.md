@@ -1,17 +1,17 @@
 ---
 layout: about
 permalink: /
-title: Decision Lab @ UCSF
-description: neuroethics + decision neuroscience
+title: See Lab @ HWU Malaysia
+description: computer vision | machine learning | affective computing
 
-profile: 
+profile:
   align: right
   image: about_prof_pic.jpg
-  address: > 
+  address: >
     <p>Sandler Neurosciences Center</p>
 
 news: false
-social: false
+social: true
 ---
 The Decision Lab is led by [Winston Chiong, MD PhD]({{ '/team/index.html#Winston-Chiong' | prepend: site.baseurl | prepend: site.url }}), and is part of the [Memory and Aging Center](http://memory.ucsf.edu){:target="\_blank"} in the [UCSF Weill Institute for Neurosciences](http://weill.ucsf.edu){:target="\_blank"}. Our interdisciplinary research is informed by clinical neurology, cognitive neuroscience, the social sciences, philosophy and law, with two main themes:
 
@@ -27,7 +27,7 @@ The Decision Lab is led by [Winston Chiong, MD PhD]({{ '/team/index.html#Winston
 
 ## partners
 
-Our work is funded by grants R01AG058817, R01MH114860, R01AG022983, 
+Our work is funded by grants R01AG058817, R01MH114860, R01AG022983,
 U01NS098971, and R01AG056715 from the [National Institutes of Health](http://www.nih.gov){:target="\_blank"}. In addition to our [research collaborators]({{ '/team/index.html#collaborators' | prepend: site.baseurl | prepend: site.url }}), we are affiliated with:
 
 <div class="clearfix" style="width: 100%; padding-bottom: 25px"></div>
