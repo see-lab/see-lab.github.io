@@ -112,7 +112,17 @@ li {
 }
 
 
+/**
+ * Tables
+ */
+table th, table td {
+    vertical-align: top;
+    text-align: left;
+}
 
+table th {
+  font-weight: 400;
+}
 /**
  * Headings
  */

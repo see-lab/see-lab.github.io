@@ -19,12 +19,11 @@ layout: default
     {{ content }}
   </article>
 
-  {% if page.layout == "about" %}
-    {% include news.html %}
-  {% endif %}
-
   {% if page.social %}
     {% include social.html %}
   {% endif %}
+
+  <div class="clearfix">
+  </div>
 
 </div>
