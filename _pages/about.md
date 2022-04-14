@@ -40,9 +40,6 @@ U01NS098971, and R01AG056715 from the [National Institutes of Health](http://www
     <a href="https://www.rarediseasesnetwork.org/cms/artfl/" target="_blank"><img style="width: 52%; float: left; padding-bottom: 25px;" valign="center" src="{{ site.baseurl }}/assets/img/about_ARTFL.png" alt="logo for ARTFL: Advnacing Research &amp; Treatment for Frontotemporal Lobar Degeneration"></a>
     <a href="https://memory.ucsf.edu/lefftds" target="_blank"><img style="width: 44%; float: right; padding-bottom: 25px;" valign="center" src="{{ site.baseurl }}/assets/img/about_LEFFTDS.png" alt="logo for LEFFTDS: Longitudinal Evaluation of Familial Frontotemporal Dementia Subjects"></a>
 </div>
--->
-
 <div style="width: 100%; clear: both; margin-bottom: 15px">
 </div>
-
----
+-->
