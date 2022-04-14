@@ -17,11 +17,10 @@ layout: default
 
   <article class="post-content {{page.title}} clearfix">
     {{ content }}
+    {% if page.layout == "about" %}
+      {% include news.html %}
+    {% endif %}
   </article>
-
-  {% if page.layout == "about" %}
-    {% include news.html %}
-  {% endif %}
 
   {% if page.social %}
     {% include social.html %}
