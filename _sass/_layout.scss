@@ -119,6 +119,10 @@
     background: #007cbe
 }
 
+.top-banner.hw-blue {
+    background: #003c71
+}
+
 .project-title {
     font-size: 46px;
     font-weight: bold;
@@ -137,7 +141,7 @@
         width: 100%;
     }
 
-    
+
 }
 
 @media screen and (max-width:659px) {
@@ -389,10 +393,10 @@
 }
 
 .project-transparency {
-    position: absolute; 
-    top: 0; 
-    bottom: 0; 
-    left: 0; 
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
     right: 0;
 }
 

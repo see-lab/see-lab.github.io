@@ -1,9 +1,9 @@
 # Site settings
-title: See Lab @ HWU
-name: See Lab at HWU
+title: See Lab @ HWU Malaysia
+name: See Lab @ HWU Malaysia
 email: j.see@hw.ac.uk
 description: > # this means to ignore newlines until "baseurl:"
-  Computer Vision, Affective Computing. Research group headed by John See, PhD at
+  Computer Vision, Machine Learning, Affective Computing. Research group headed by John See, PhD at
   the School of Mathematical and Computing Sciences, Heriot-Watt University Malaysia.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://see-lab.github.io"
@@ -17,7 +17,7 @@ github_username:  jstulips
 # News
 # -----------------------------------------------------------------------------
 blog_name: See Lab @ HWU Malaysia
-blog_description: computer vision | pattern recognition | affective computing
+blog_description: computer vision | machine learning | affective computing
 
 # Pagination
 paginate: 4
