@@ -10,7 +10,11 @@ url: "https://see-lab.github.io"
 last_updated: # leave blank if you don't want to display last updated
 twitter_username: johnseesuyang
 github_username:  jstulips
-
+linkedin_username: john-see
+scholar_userid: uH74dcgAAAAJ
+orcid_id: 0000-0003-3005-4109
+dblp_url: 36/4809
+work_url: "https://www.johnsee.net"
 
 
 # -----------------------------------------------------------------------------
@@ -34,6 +38,7 @@ text:
 show_social_icons:  true
 enable_anchorjs:    false
 enable_katex:       true
+enable_darkmode:    true
 
 
 # -----------------------------------------------------------------------------
@@ -52,12 +57,13 @@ collections:
     output: true
     permalink: /pastsem/:path/
 
-news_limit: 5
+news_limit: 25
 
 
 # Build settings
 markdown: kramdown
 highlighter: rouge
+highlight_theme: github
 
 # Includes & excludes
 include: ['_pages']
@@ -69,7 +75,8 @@ plugins:
     - jekyll-paginate
     - jemoji
     - jekyll-sitemap
-
+    - jekyll/scholar
+    - jekyll-github-metadata
 
 # -----------------------------------------------------------------------------
 # Other settings
