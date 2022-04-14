@@ -19,7 +19,7 @@ layout: default
     {{ content }}
   </article>
 
-  {% if page.news %}
+  {% if page.layout == "about" %}
     {% include news.html %}
   {% endif %}
 
