@@ -24,7 +24,9 @@ Welcome to the See Lab! The See Lab is a research group led by [John See, PhD]({
    We also use conceptual and empirical/ethnographic methods to investigate the broader effects of brain diseases and of interventions (pharmacological and technological) that influence brain function. As the brain is the physical basis for our experiences, personalities and choices, we are particularly interested in how changes to the brain affect patients’/users’ senses of themselves and in whether new possibilities afforded by novel interventions are made available among diverse communities.
 
 ---
+{% include news.html %}
 
+---
 ## partners
 
 Our work is funded by grants R01AG058817, R01MH114860, R01AG022983,
@@ -47,13 +49,14 @@ U01NS098971, and R01AG056715 from the [National Institutes of Health](http://www
 ---
 
 ## contact
-Winston Chiong, MD PhD  
-Associate Professor in Residence  
-UCSF Memory and Aging Center  
-675 Nelson Rising Lane, Suite 190F  
-San Francisco CA 94158  
+**John See**, PhD  
+Associate Professor in Computer Science
+School of Mathematical and Computer Sciences  
+Heriot-Watt University Malaysia
+1 Jalan Venna P5/2, Precinct 5
+Putrajaya 62200 Malaysia  
 
-<i class="fa fa-envelope"></i> *decisionlab (at) ucsf.edu*
+<i class="fa fa-envelope"></i> *j (dot) see (at) hw.ac.uk*
 
 ---
 
