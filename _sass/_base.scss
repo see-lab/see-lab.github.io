@@ -256,9 +256,9 @@ pre {
  * Footer
  */
 footer.fixed-bottom {
-  background-color: lighten(#828282, 40%);;
+  background-color: #424242;
   font-size: 0.75rem;
-
+  text-align: center;
   position: fixed;
   right: 0;
   bottom: 0;
@@ -266,12 +266,12 @@ footer.fixed-bottom {
   z-index: 1030;
 
   .container {
-    color: darken(#828282, 25%);
+    color: #e8e8e8;
     padding-top: 9px;
     padding-bottom: 8px;
   }
   a {
-    color: #000000;
+    color: #e8e8e8;
     &:hover {
       color: #052049;
       text-decoration: none;
