@@ -18,7 +18,9 @@
       -->
   <div class="wrapper">
 		{% if page.layout != "about" %}
-		<a class="site-title" href="{{ site.baseurl | prepend: site.url }}/"><img style="display: inline-block; vertical-align: middle; padding-right: 2px; margin-bottom: 8px" src="{{ 'seelab-logo.png' | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}">Lab</a>
+		<a class="site-title" href="{{ site.baseurl | prepend: site.url }}/"><img style="display: inline-block; vertical-align: middle; padding-right: 2px; margin-bottom: 8px" src="{{ 'seelab-logo.png' | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}">
+			<span style="letter-spacing:-2px;">lab</span>
+		</a>
 		{% endif %}
 
 		<nav class="site-nav">

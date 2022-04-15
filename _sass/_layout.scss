@@ -20,10 +20,9 @@
 
 .site-title {
     font-size: 32px;
-    line-height: 46px;
     letter-spacing: -0.5px;
     margin-bottom: 0;
-    padding-top: 12px;
+    padding-top: 0.6rem;
     float: left;
     color: $text-color;
 
@@ -33,7 +32,7 @@
     }
 
     img {
-      height: 3.5rem;
+      height: 2.33rem;
 
     }
 
@@ -435,10 +434,10 @@
 }
 
 .post-title {
-    font-size: 42px;
+    font-size: 40px;
     letter-spacing: -1px;
     line-height: 1;
-    margin-top: $spacing-unit;
+    margin-top: $spacing-unit *1.2;
 
     @include media-query($on-laptop) {
         font-size: 36px;
