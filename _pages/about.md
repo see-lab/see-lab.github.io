@@ -10,8 +10,9 @@ profile:
   address: >
     <p>Sandler Neurosciences Center</p>
 
-news: true
-social: true
+news: true   # includes a brief list of news items
+featured_papers: true  # includes a list of papers marked as "selected={true}"
+social: true   # includes social media icons at the bottom of page
 ---
 Welcome to the See Lab! The See Lab is a research group led by [John See, PhD]({{ '/team/index.html#John-See' | prepend: site.baseurl | prepend: site.url }}), and is part of the [School of Mathematical and Computing Sciences](https://www.hw.ac.uk/uk/schools/mathematical-computer-sciences.htm){:target="\_blank"} in [Heriot-Watt University Malaysia](http://hw.edu.my){:target="\_blank"}. We work primarily in **computer vision** and **multimedia signal processing**, building machines that can see and understand the world around us. Our research delves into several interdisciplinary intersections with affective computing, psychology, and surveillance, along these two main themes:
 
