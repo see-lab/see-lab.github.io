@@ -4,10 +4,15 @@
 .site-header {
     border-top: 1px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
+    background-color: #f8f8f8;
     min-height: 56px;
 
     // Positioning so hamburger menu stays in front of graphic elements
     z-index: 100;
+
+    // More effects for the header navbar
+    opacity: 0.85;
+    box-shadow: none;
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -269,6 +274,22 @@
             padding: 5px 10px;
         }
     }
+}
+
+/* force navbar and footer to fixed positions */
+.fixed-bottom {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.fixed-top {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1030;
 }
 
 /* classes for seminar image and caption, maybe remove */
