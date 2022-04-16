@@ -6,7 +6,7 @@ description: computer vision | machine learning | affective computing
 
 profile:
   align: right
-  image: about_prof_pic.jpg
+  image: about_prof_pic.png
   address: >
     <p>Sandler Neurosciences Center</p>
 
