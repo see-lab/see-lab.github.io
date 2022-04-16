@@ -384,16 +384,22 @@
 /**
  * Frontpage profile
  */
- .profile-name {
+.profile-name {
+   font-size: 110%;
+}
+.profile-particulars {
+   font-size: 85%;
+}
+.profile-address {
+   font-size: 70%;
+}
 
- }
- .profile-particulars {
-   font-size: 80%;
- }
- .profile-address {
-    font-size: 70%;
- }
-
+@media (min-width: 576px)
+.profile {
+    width: 35%;
+    float: right !important;
+    padding-left: 30px;
+}
 
 /**
  * Page content

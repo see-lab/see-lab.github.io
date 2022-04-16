@@ -9,7 +9,7 @@ profile:
   position: Head of Group (P.I.)
   align: right
   image: johnsee.jpg
-  email: j(dot)see(at)hw(dot)ac(dot)uk
+  email: j.see@hw.ac.uk
   address: >
     <p>School of Mathematical and Computing Sciences<br>1 Jalan Venna P5/2, Precinct 5<br>Putrajaya 62200 Malaysia</p>
 

@@ -3,7 +3,7 @@ layout: page
 ---
 
 {% if page.profile %}
-  <div style="float: right; width: 35%; padding-left: 30px;">
+  <div class="profile">
     {% if page.profile.image %}
       <img style="width: 100%; padding-bottom: 5px;" src="{{ page.profile.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" alt="photo: {{ page.profile.address }}">
     {% endif %}
@@ -12,7 +12,7 @@ layout: page
     </div>
     <div class="profile-particulars">
        {{page.profile.position}}<br>
-       <i class="fa fa-envelope"></i>{{page.profile.email}}<br>
+       <a href="mailto:j.see@hw.ac.uk"><i class="fa fa-envelope"></i> {{page.profile.email}}</a><br>
     </div>
     {% if page.profile.address %}
       <div class="profile-address">
@@ -22,7 +22,9 @@ layout: page
   </div>
 {% endif %}
 
-{{ content }}
+<div class="clearfix">
+   {{ content }}
+</div>
 
 {% include news.html %}
 {% include contact.html %}
