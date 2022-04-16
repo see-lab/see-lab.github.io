@@ -438,24 +438,24 @@
 }
 
 .post-title {
-    font-size: 40px;
-    letter-spacing: -1px;
+    font-size: 1.5em;
+    letter-spacing: 0.8px;
     line-height: 1;
     margin-top: $spacing-unit *1.2;
 
     @include media-query($on-laptop) {
-        font-size: 36px;
+        font-size: 1.3em;
     }
 }
 
 .post-tagline {
-    font-size: 32px;
+    font-size: 1.3em;
     color: #007cbe;
-    letter-spacing: -0.7px;
-    line-height:90%;
+    letter-spacing:-0.7px;
+    line-height: 150%;
 
     @include media-query($on-laptop) {
-        font-size: 28px;
+        font-size: 1.1em;
     }
 }
 
