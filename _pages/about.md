@@ -5,10 +5,13 @@ title: See Lab @ HWU Malaysia
 description: computer vision | machine learning | affective computing
 
 profile:
+  name: Assoc. Prof. Dr. John See 
+  position: Head of Group (P.I.)
   align: right
-  image: about_prof_pic.png
+  image: johnsee.jpg
+  email: j(dot)see(at)hw(dot)ac(dot)uk
   address: >
-    <p>Sandler Neurosciences Center</p>
+    <p>School of Mathematical and Computing Sciences<br>1 Jalan Venna P5/2, Precinct 5<br>Putrajaya 62200 Malaysia</p>
 
 news: true   # includes a brief list of news items
 featured_papers: true  # includes a list of papers marked as "selected={true}"
