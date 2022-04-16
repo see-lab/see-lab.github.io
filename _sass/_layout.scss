@@ -382,7 +382,7 @@
 }
 
 /**
- * Frontpage profile
+ * Frontpage profile section
  */
 .profile-name {
    font-size: 110%;
@@ -395,9 +395,18 @@
 }
 
 .profile {
-    width: 35%;
+    width: 100%;
     float: right !important;
     padding-left: 30px;
+}
+
+@media (min-width: 576px) {
+  .profile {
+    width: 35%;
+    .profile-address {
+      p { display: block; }
+    }
+  }
 }
 
 /**
