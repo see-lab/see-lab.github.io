@@ -5,7 +5,7 @@ title: See Lab @ HWU Malaysia
 description: computer vision | machine learning | affective computing
 
 profile:
-  name: Assoc. Prof. Dr. John See 
+  name: John See, Ph.D
   position: Head of Group (P.I.)
   align: right
   image: johnsee.jpg

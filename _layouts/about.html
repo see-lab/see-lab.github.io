@@ -7,11 +7,15 @@ layout: page
     {% if page.profile.image %}
       <img style="width: 100%; padding-bottom: 5px;" src="{{ page.profile.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" alt="photo: {{ page.profile.address }}">
     {% endif %}
-    **{{page.profile.name}}**<br>
-    {{page.profile.position}}<br>
-    <i class="fa fa-envelope"></i>{{page.profile.email}}<br>
+    <div class="profile-name">
+       <a href="https://www.johnsee.net" target="_blank">{{page.profile.name}}</a><br>
+    </div>
+    <div class="profile-particulars">
+       {{page.profile.position}}<br>
+       <i class="fa fa-envelope"></i>{{page.profile.email}}<br>
+    </div>
     {% if page.profile.address %}
-      <div class="address">
+      <div class="profile-address">
         {{ page.profile.address }}
       </div>
     {% endif %}
