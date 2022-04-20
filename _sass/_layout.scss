@@ -384,6 +384,27 @@
 /**
  * Frontpage profile section
  */
+.profile {
+    // letter-spacing: 0.2px;
+    width: 100%;
+    float: right !important;
+    padding-left: 28px;
+
+    img {
+       width: 100%;
+       padding-bottom: 5px;
+
+    }
+}
+
+@media (min-width: 576px) {
+  .profile {
+    width: 36%;
+    .profile-address {
+      p { display: block; }
+    }
+  }
+}
 .profile-name {
    font-size: 120%;
 }
@@ -394,21 +415,6 @@
    font-size: 70%;
 }
 
-.profile {
-    letter-spacing: 0.2px;
-    width: 100%;
-    float: right !important;
-    padding-left: 30px;
-}
-
-@media (min-width: 576px) {
-  .profile {
-    width: 35%;
-    .profile-address {
-      p { display: block; }
-    }
-  }
-}
 
 /**
  * Page content
