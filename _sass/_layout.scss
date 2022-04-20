@@ -385,16 +385,17 @@
  * Frontpage profile section
  */
 .profile-name {
-   font-size: 110%;
+   font-size: 120%;
 }
 .profile-particulars {
-   font-size: 85%;
+   font-size: 95%;
 }
 .profile-address {
    font-size: 70%;
 }
 
 .profile {
+    letter-spacing: 0.2px;
     width: 100%;
     float: right !important;
     padding-left: 30px;
@@ -479,6 +480,7 @@
     color: #007cbe;
     letter-spacing:-0.7px;
     line-height: 150%;
+    margin-top: 0.6em;
 
     @include media-query($on-laptop) {
         font-size: 1.1em;
@@ -486,15 +488,14 @@
 }
 
 @media screen and (max-width:459px) {
-
     .post-tagline {
-        font-size: 19.6px;
+        font-size: 1rem;
         color: #007cbe;
         letter-spacing: -0.7px;
         line-height:90%;
     }
-
 }
+
 .post-content {
     margin-bottom: $spacing-unit;
 
