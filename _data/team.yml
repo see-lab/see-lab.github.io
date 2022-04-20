@@ -1,4 +1,5 @@
 - name: John See
+  lastname: See
   group: Faculty
   group_rank: 1
   altimage:
@@ -29,6 +30,7 @@
               I see myself as...
 
 - name: Imad Gohar
+  lastname: Gohar
   group: PhD student
   group_rank: 3
   altimage:
@@ -54,6 +56,7 @@
                My research areas are ...
 
 - name: Gen Bing Liong
+  lastname: Liong
   group: PhD student
   group_rank: 3
   altimage:
