@@ -5,11 +5,11 @@ title: Team
 description:
 ---
 
-{% assign groups = site.data.members | sort: "group_rank" | map: "group" | uniq %}
+{% assign groups = site.data.team | sort: "group_rank" | map: "group" | uniq %}
 {% for group in groups %}
 ## {{ group }}
 
-    {% assign members = site.data.members | sort: "lastname" | where: "group", group %}
+    {% assign members = site.data.team | sort: "lastname" | where: "group", group %}
     {% for member in members %}
 <p>
     <div class="card hoverable">
