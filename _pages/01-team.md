@@ -1,8 +1,8 @@
 ---
 layout: page
-permalink: /team/
+permalink: /team_old/
 title: team
-description: 
+description:
 ---
 
 {% for person in site.data.members %}
@@ -11,7 +11,7 @@ description:
 <div id = "{{person.name | replace: ' ', '-'}}" class="row" style="padding-top: 60px; margin-top: -60px;">
     <img style="float: right; width: 42%; padding-left: 20px;" src="{{ person.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" alt="photo of {{person.name}}">
     <div>
-        <h4>{{person.name}}{% if person.degrees %}, {{person.degrees}} {% endif %}</h4> 
+        <h4>{{person.name}}{% if person.degrees %}, {{person.degrees}} {% endif %}</h4>
         {{person.position}} <br>
         <i class="fa fa-envelope"></i> <em>{{person.email}}</em> <br>
         {% if person.twitter %}
@@ -44,7 +44,7 @@ description:
 <div id = "{{person.name | replace: ' ', '-'}}" class="row" style="padding-top: 60px; margin-top: -60px;">
     <img style="float: right; width: 42%; padding-left: 20px;" src="{{ person.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" alt="photo of {{person.name}}">
     <div>
-        <h4>{{person.name}}{% if person.degrees %}, {{person.degrees}} {% endif %}</h4> 
+        <h4>{{person.name}}{% if person.degrees %}, {{person.degrees}} {% endif %}</h4>
         {{person.position}} <br>
         <i class="fa fa-envelope"></i> <em>{{person.email}}</em> <br>
         {% if person.twitter %}

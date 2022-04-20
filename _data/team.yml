@@ -1,0 +1,80 @@
+- name: John See
+  group: Faculty
+  group_rank: 1
+  altimage:
+  profile:
+     title: Associate Professor
+     degrees: PhD
+     position: Head of Lab, Principal Investigator
+     image: johnsee-square.jpg
+     email: j (dot) see (at) hw.ac.uk
+     website: https://researchportal.hw.ac.uk/en/persons/john-see
+     scholar: uH74dcgAAAAJ
+     twitter: "johnseesuyang"
+     github: jstulips
+     orcid: "orcid.org/0000-0003-3005-4109"
+     address: >
+        School of Mathematical and Computer Sciences<br />
+        Room 4, E1.17, East Wing<br />
+        Heriot-Watt University Malaysia<br />
+        62200 Putrajaya, Malaysia.
+     description: I'm an Associate Professor in Computing at [Heriot-Watt University Malaysia](https://hw.edu.my){:target="\_blank"} from April 2021.
+              Before that, I have been a Senior Lecturer at [Multimedia University](https://www.mmu.edu.my){:target="\_blank"}, where I founded and led the
+              [Visual Computing Lab](https://viprlab.github.io){:target="\_blank"}. From 2017-2019, I was also a Visiting Research Fellow at
+              [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/){:target="\_blank"} as a recipient of the Belt and Road Initiative Young Scientist Fellowship
+              where I collaborated with [Weiyao Lin](https://weiyaolin.github.io/){:target="\_blank"}.
+              My research interests span broadly the areas of computer vision and pattern recognition. In particular, my current research focuses on
+              several highly subjective tasks -- facial micro-expressions, emotion prediction and image aesthetics, as well as a spectrum of
+              visual surveillance tasks (activity recognition, long-term analytics, person/group re-identification).
+              I see myself as...
+
+- name: Imad Gohar
+  group: PhD student
+  group_rank: 3
+  altimage:
+  profile:
+    title: JWS Scholar
+    degrees: MSc Computer Science
+    position: Graduate Research Scholar
+    image: imad.jpg
+    email: ig2010 (at) hw.ac.uk
+    # website:
+    scholar: Q4ZZzM8AAAAJ
+    # twitter:
+    # orcid:
+  address: >
+     School of Mathematical and Computer Sciences<br />
+     Heriot-Watt University Malaysia<br />
+     62200 Putrajaya, Malaysia.
+  description: I am currently a PhD research student at [Heriot-Watt University Malaysia](https://hw.edu.my) where I am working on project AVALON
+               which aims towards robust algorithms for defect detection from energy infrastructure such as wind turbine blades and power transmission lines.
+
+               I received my Masters degree in ... and Bachelor's degree in ...
+
+               My research areas are ...
+
+- name: Gen Bing Liong
+  group: PhD student
+  group_rank: 3
+  altimage:
+  profile:
+    # title:
+    degrees: B. Computer Science (Data Science)
+    position: Graduate student
+    image: gbliong.jpg
+    email: genbing67 (at) gmail.com
+    # website:
+    scholar: bMlKWeQAAAAJ
+    # twitter:
+    # orcid:
+  address: >
+     School of Mathematical and Computer Sciences<br />
+     Heriot-Watt University Malaysia<br />
+     62200 Putrajaya, Malaysia.
+  description: I am currently a part-time Masters by Research student at [University of Malaya](https://um.edu.my) where my research focus is on facial
+               micro-expression spotting and recognition from long unconstrained videos. I am jointly supervised by [Chee Seng Chan](http://cs-chan.com/)
+               and [John See](https://www.johnsee.net). At the same time, I work on my day job as a data scientist at TM Research & Development Centre, Malaysia.
+
+               I received my Bachelor's degree in Computer Science, specialising in Data Science from Multimedia University in 2021.
+
+               My research areas are ...
