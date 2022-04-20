@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /team/
-title: Team
+title: team
 description:
 ---
 
@@ -23,17 +23,18 @@ description:
                     <h5 class="card-title">{{ member.name }}</h5>
                     {% if member.profile.position %}<h6 class="card-subtitle mb-2 text-muted">{{ member.profile.position }}</h6>{% endif %}
                     <p class="card-text">
-                        {{ member.profile.description }}
+                        {{ member.profile.description | markdownify }}
                     </p>
                     {% if member.profile.website %}</a>{% endif %}
                     {% if member.profile.email %}
                         <i class="fas fa-envelope"></i> {{ member.profile.email }}
                     {% endif %}
-                    {% if member.profile.orcid %}
-                        <a href="https://orcid.org/{{ member.profile.orcid }}" class="card-link" target="_blank"><i class="fab fa-orcid"></i></a>
-                    {% endif %}
+                    <br />
                     {% if member.profile.scholar %}
                         <a href="https://scholar.google.com/citations?user={{ member.profile.scholar }}" class="card-link" target="_blank"><i class="ai ai-google-scholar"></i></a>
+                    {% endif %}
+                    {% if member.profile.orcid %}
+                        <a href="https://orcid.org/{{ member.profile.orcid }}" class="card-link" target="_blank"><i class="fab fa-orcid"></i></a>
                     {% endif %}
                     {% if member.profile.twitter %}
                         <a href="https://twitter.com/{{ member.profile.twitter }}" class="card-link" target="_blank"><i class="fab fa-twitter"></i></a>
