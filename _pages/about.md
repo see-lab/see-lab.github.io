@@ -8,11 +8,12 @@ profile:
   name: John See, Ph.D
   position: Head of Group (P.I.)
   align: right
-  image: johnsee.jpg
+  image: johnsee-square.png
   email: j dot see at hw dot ac dot uk
   address: >
     <p>School of Mathematical and Computing Sciences<br>1 Jalan Venna P5/2, Precinct 5<br>Putrajaya 62200 Malaysia</p>
 
+contact: true # includes contact card in page
 news: true   # includes a brief list of news items
 featured_papers: true  # includes a list of papers marked as "selected={true}"
 social: true   # includes social media icons at the bottom of page

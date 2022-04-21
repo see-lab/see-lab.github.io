@@ -19,6 +19,10 @@ layout: default
     {{ content }}
   </article>
 
+  {% if page.layout != "about" & page.contact %}
+    {% include contact.html %}
+  {% endif %}
+
   {% if page.social %}
     {% include social.html %}
   {% endif %}
