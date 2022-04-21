@@ -1,124 +1,144 @@
 # THE WEIRDEST BUG: using escapes requires single-quotes instead of double...
 # filetype options: "pdf - published version" "pdf - author manuscript version (peer-reviewed & edited)"...
 
+- authors: "Lim J.Y., Al Jobayer M.I., Baskaran V.M., Lim J.M.Y., **See J**, Wong K.S."
+  title: "Deep multi-level feature pyramids: Application for non-canonical firearm detection in video surveillance"
+  details:  "Engineering Applications of Artificial Intelligence, 97, [104094]"
+  year: 2021
+  image: pubs_2021_firearmdetection.jpg
+  imagealt:
+  pmid:
+  pmcid:
+  openaccess:
+  doi: 10.1016/j.engappai.2020.104094
+  file:
+  filetype:
+  github:
+  biorxiv:
+  psyarxiv:
+  contentshare:
+  preregistered:
+  opendata:
+  openmaterials:
+
 
 - authors: "**Haeusermann T**, **Romero-Kornblum H**, Dzeng E."
   title: "Of care, cure and the in-between: COVID-19 treatment in a New York City intensive care unit"
   details:  "International Journal of Care and Caring. 2022;6(1-2):67-84."
   year: 2022
   image: pubs_2022_carecure.jpg
-  imagealt: 
-  pmid: 
-  pmcid: 
-  openaccess: 
+  imagealt:
+  pmid:
+  pmcid:
+  openaccess:
   doi: 10.1332/239788221X16316503274460
   file:
-  filetype: 
+  filetype:
   github:
   biorxiv:
-  psyarxiv: 
+  psyarxiv:
   contentshare:
-  preregistered: 
-  opendata: 
-  openmaterials: 
+  preregistered:
+  opendata:
+  openmaterials:
 
 
 - authors: "**Manivannan M**, **Heunis J**, Hooper SM, Bernstein Sideman A, Lui KP, Possin KL, **Chiong W**."
   title: "Use of telephone- and internet-based support to elicit and address financial abuse and mismanagement in dementia: Experiences from the Care Ecosystem study."
-  details: "Journal of Alzheimer’s Disease. 2022;86(1):219-229." 
+  details: "Journal of Alzheimer’s Disease. 2022;86(1):219-229."
   year: 2022
   image: pubs_2022_MMfinancialactivities.png
-  imagealt: 
+  imagealt:
   pmid: 35034900
-  pmcid: 
-  openaccess: 
+  pmcid:
+  openaccess:
   doi: 10.3233/JAD-215284
   file: Manivannan_Financial-Activities.pdf
   filetype: "pdf - author manuscript version (peer-reviewed & edited)"
   github:
   biorxiv:
-  psyarxiv: 
+  psyarxiv:
   contentshare:
-  preregistered: 
-  opendata: 
-  openmaterials: 
+  preregistered:
+  opendata:
+  openmaterials:
 
 
 - authors: "**Chiong W**, Tolchin BD, Bonnie RJ, Busl K, Cruz-Flores S, Epstein LG, Greene EP, Illes J, Kirschen M, Larriviere DG, Mantri S, Rubin MA, Stern BJ, Taylor LP, Ethics, Law, and Humanities Committee (a joint committee of the AAN, ANA, and CNS)"
   title: "Decisions with patients and families regarding aducanumab in Alzheimer disease, with recommendations for consent: AAN position statement."
-  details: "Neurology. 2022;98(4):154-159." 
+  details: "Neurology. 2022;98(4):154-159."
   year: 2022
   image: pubs_2021_aducanumab.jpg
-  imagealt: 
+  imagealt:
   pmid: 34789544
-  pmcid: 
+  pmcid:
   openaccess:
   doi: 10.1212/WNL.0000000000013053
-  file: 
-  filetype: 
+  file:
+  filetype:
   github:
   biorxiv:
-  psyarxiv: 
+  psyarxiv:
   contentshare:
-  preregistered: 
-  opendata: 
-  openmaterials: 
+  preregistered:
+  opendata:
+  openmaterials:
 
 
 - authors: "Sattin JA, **Chiong W**, Bonnie RJ, Kirschen MP, Russell JA, on behalf of the Ethics, Law, and Humanities Committee, a joint committee of the American Academy of Neurology, American Neurological Association, and Child Neurology Society."
   title: "Consent issues in the management of acute ischemic stroke: AAN position statement."
-  details: "Neurology. 2022;98(2):73-79." 
+  details: "Neurology. 2022;98(2):73-79."
   year: 2022
   image: pubs_2022_ischemic_stroke.png
-  imagealt: 
-  pmid: 
-  pmcid: 
-  openaccess: 
+  imagealt:
+  pmid:
+  pmcid:
+  openaccess:
   doi: https://doi.org/10.1212/WNL.0000000000013040
-  file: 
-  filetype: 
+  file:
+  filetype:
   github:
   biorxiv:
-  psyarxiv: 
+  psyarxiv:
   contentshare:
-  preregistered: 
-  opendata: 
-  openmaterials: 
+  preregistered:
+  opendata:
+  openmaterials:
 
 
 - authors: "Jaworska A, **Chiong W**."
   title: "Supported decision-making for people with dementia should focus on their values."
-  details: "American Journal of Bioethics. 2021;21(11):19–21." 
+  details: "American Journal of Bioethics. 2021;21(11):19–21."
   year: 2021
   image: pubs_2021_support_decision_making.jpg
-  imagealt: 
+  imagealt:
   pmid: 34710012
-  pmcid: 
+  pmcid:
   openaccess: https://www.tandfonline.com/doi/full/10.1080/15265161.2021.1980150
   doi: 10.1080/15265161.2021.1980150
-  file: 
-  filetype: 
+  file:
+  filetype:
   github:
   biorxiv:
-  psyarxiv: 
+  psyarxiv:
   contentshare:
-  preregistered: 
-  opendata: 
-  openmaterials: 
+  preregistered:
+  opendata:
+  openmaterials:
 
 
 - authors: "**Antoniou R**, **Romero-Kornblum H**, **Young JC**, You M, Kramer JH, **Chiong W**."
   title: "Reduced utilitarian willingness to violate personal rights during the COVID-19 pandemic."
-  details: "PLoS ONE 16(10):e0259110." 
+  details: "PLoS ONE 16(10):e0259110."
   year: 2021
   image: pubs_2020_No utilitarians in a pandemic.png
-  imagealt: 
+  imagealt:
   pmid: 34679124
   pmcid: PMC8535394
   openaccess: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0259110
   doi: https://doi.org/10.1371/journal.pone.0259110
-  file: 
-  filetype: 
+  file:
+  filetype:
   github:
   biorxiv:
   psyarxiv: https://psyarxiv.com/yjn3u
@@ -130,168 +150,168 @@
 
 - authors: "**Ma H**, Kiekhofer RE, Hooper SM, Dulaney S, Possin KL, **Chiong W.**"
   title: "Goals of care conversations and subsequent advance care planning outcomes for people with dementia."
-  details: "Journal of Alzheimer's Disease. 2021;83(4):1767–73." 
+  details: "Journal of Alzheimer's Disease. 2021;83(4):1767–73."
   year: 2021
   image: pubs_2021_Goals_of_care_conversations_and_subsequent_advance_care_planning_outcomes_for_people_with_dementia.jpg
   imagealt: photo by Mohamed Mahmoud Hassan on publicdomainpictures.net
   pmid: 34459407
-  pmcid: 
-  openaccess: 
+  pmcid:
+  openaccess:
   doi: 10.3233/JAD-210720
   file: Ma - CareEco.pdf
   filetype: "pdf - author manuscript version (peer-reviewed & edited)"
   github:
   biorxiv:
-  psyarxiv: 
-  contentshare: 
-  preregistered: 
-  opendata: 
-  openmaterials: 
+  psyarxiv:
+  contentshare:
+  preregistered:
+  opendata:
+  openmaterials:
 
 
 - authors: "**Ngo S**, Kim AS, **Chiong W**."
   title: "Evidence for the ethics of incentivizing clinical trial enrollment?"
-  details: "JAMA Internal Medicine. 2021." 
+  details: "JAMA Internal Medicine. 2021."
   year: 2021
   image: pubs_2021_ethics-incentives.jpg
   imagealt: Photo by Marek Studzinski on Unsplash
   pmid: 34542559
-  pmcid: 
-  openaccess: 
+  pmcid:
+  openaccess:
   doi: 10.1001/jamainternmed.2021.5449
-  file: 
-  filetype: 
+  file:
+  filetype:
   github:
   biorxiv:
-  psyarxiv: 
-  contentshare: 
-  preregistered: 
-  opendata: 
-  openmaterials: 
+  psyarxiv:
+  contentshare:
+  preregistered:
+  opendata:
+  openmaterials:
 
 
 - authors: "**Haeusermann T**, **Lechner CR**, **Fong KC**, Bernstein Sideman A, Jaworska A, **Chiong W**, Dohan D."
   title: "Closed-loop neuromodulation and self-perception in clinical treatment of refractory epilepsy."
-  details: "AJOB Neuroscience. 2021; 1–13." 
+  details: "AJOB Neuroscience. 2021; 1–13."
   year: 2021
   image: pubs_2021_closed_loop.png
-  imagealt: 
+  imagealt:
   pmid: 34473932
-  pmcid: 
+  pmcid:
   openaccess: https://www.tandfonline.com/doi/full/10.1080/21507740.2021.1958100
   doi: 10.1080/21507740.2021.1958100
-  file: 
-  filetype: 
+  file:
+  filetype:
   github:
   biorxiv:
-  psyarxiv: 
-  contentshare: 
-  preregistered: 
-  opendata: 
-  openmaterials: 
+  psyarxiv:
+  contentshare:
+  preregistered:
+  opendata:
+  openmaterials:
 
 
 - authors: "Chiang S, Picard RW, **Chiong W**, Moss R, Worrell GA, Rao VR, Goldenholz DM."
   title: "Guidelines for conducting ethical artificial intelligence research in neurology: A systematic approach for clinicians and researchers."
-  details: "Neurology. 2021;97(13):632–640" 
+  details: "Neurology. 2021;97(13):632–640"
   year: 2021
-  image: pubs_2021_Guidelines_for_Conducting_Ethical_Artificial_Intelligence.jpg 
-  imagealt: 
+  image: pubs_2021_Guidelines_for_Conducting_Ethical_Artificial_Intelligence.jpg
+  imagealt:
   pmid: 34315785
   pmcid: PMC8480407
-  openaccess: 
+  openaccess:
   doi: 10.1212/WNL.0000000000012570
-  file: 
-  filetype: 
+  file:
+  filetype:
   github:
   biorxiv:
-  psyarxiv: 
-  contentshare: 
-  preregistered: 
-  opendata: 
-  openmaterials: 
+  psyarxiv:
+  contentshare:
+  preregistered:
+  opendata:
+  openmaterials:
 
 
 - authors: "**Chiong W**, Tsou AY, Simmons Z, Bonnie RJ, Russell JA, on behalf of the Ethics, Law, and Humanities Committee (a joint committee of the American Academy of Neurology, American Neurological Association, and Child Neurology Society)"
   title: "Ethical considerations in dementia diagnosis and care: AAN position statement."
-  details: "Neurology. 2021;97(2):80-89." 
+  details: "Neurology. 2021;97(2):80-89."
   year: 2021
   image: pubs_2021_Ethical_Considerations_in_Dementia_Diagnosis_and_Care.jpg
-  imagealt: 
+  imagealt:
   pmid: 34524968
-  pmcid: 
+  pmcid:
   openaccess:
   doi: 10.1212/WNL.0000000000012079
-  file: 
-  filetype: 
+  file:
+  filetype:
   github:
   biorxiv:
-  psyarxiv: 
-  contentshare: 
-  preregistered: 
-  opendata: 
-  openmaterials: 
+  psyarxiv:
+  contentshare:
+  preregistered:
+  opendata:
+  openmaterials:
 
 - authors: "Hrincu V, McDonald PJ, Connolly MB, Harrison MJ, Ibrahim GM, Naftel RP, **Chiong W**, Alam A, Ribary U, Illes J."
   title: "Choice and trade-offs: parent decision making for neurotechnologies for pediatric drug-resistant epilepsy."
-  details: "Journal of Child Neurology. 2021; 36(11):943-949." 
+  details: "Journal of Child Neurology. 2021; 36(11):943-949."
   year: 2021
   image: pubs_2021_Child-Epilepsy.jpg
-  imagealt: 
+  imagealt:
   pmid: 34078159
   pmcid: PMC8458226
-  openaccess: 
+  openaccess:
   doi: 10.1177/08830738211015010
   file: Hrincu V, McDonald PJ, Connolly MB, et al. - Choice and Trade-offs- Parent Decision Making for Neurotechnologies for Pediatric Drug-Resistant Epilepsy.pdf
   filetype: "pdf - author manuscript version (peer-reviewed & edited)"
   github:
   biorxiv:
-  psyarxiv: 
-  contentshare: 
-  preregistered: 
-  opendata: 
-  openmaterials: 
+  psyarxiv:
+  contentshare:
+  preregistered:
+  opendata:
+  openmaterials:
 
 
 - authors: "**Lindbergh CA**, **Romero-Kornblum H**, Weiner-Light S, **Young JC**, Fonseca C, You M, Wolf A, Staffaroni AM, Daly R, Jeste DV, Kramer JH, **Chiong W**, the Hillblom Aging Network."
   title: "Wisdom and fluid intelligence are dissociable in healthy older adults."
-  details: "International Psychogeriatrics. 2021;1–11." 
+  details: "International Psychogeriatrics. 2021;1–11."
   year: 2021
   image: pubs_2021_Wisdom_and_fluid intelligence_are_dissociable_in healthy_older_adults-SDxPS.png
-  imagealt: 
-  pmid: 33966673  
-  pmcid: 
+  imagealt:
+  pmid: 33966673
+  pmcid:
   openaccess: https://www.cambridge.org/core/journals/international-psychogeriatrics/article/wisdom-and-fluid-intelligence-are-dissociable-in-healthy-older-adults/43B96A4356BF006EFEF38CBBF0FF7B4F#
   doi: 10.1017/S1041610221000521
   file:
-  filetype: 
+  filetype:
   github:
   biorxiv:
-  psyarxiv: 
-  contentshare: 
+  psyarxiv:
+  contentshare:
   preregistered: https://osf.io/h3pjx
   opendata: https://osf.io/efjnr
-  openmaterials: 
+  openmaterials:
 
 - authors: "Hegde M, **Chiong W**, Rao VR."
   title: "New ethical and clinical challenges in “closed-loop” neuromodulation."
-  details: "Neurology. 2021; 96(17):799-804. " 
+  details: "Neurology. 2021; 96(17):799-804. "
   year: 2021
   image: pubs_2021_neuromodulation_ethics_resized.png
-  imagealt: 
+  imagealt:
   pmid: 33727407
   pmcid: PMC8166428
-  openaccess: 
+  openaccess:
   doi: 10.1212/WNL.0000000000011834
   file:
-  filetype: 
+  filetype:
   github:
   biorxiv:
-  psyarxiv: 
-  contentshare: 
-  preregistered: 
-  opendata: 
-  openmaterials: 
+  psyarxiv:
+  contentshare:
+  preregistered:
+  opendata:
+  openmaterials:
 
 - authors: "Mergenthaler JV, **Chiong W**, Dohan D, Feler J, **Lechner CR**, Starr PA, Arias JJ."
   title: "A qualitative analysis of ethical perspectives on recruitment and consent for human intracranial electrophysiology studies."
@@ -301,29 +321,29 @@
   imagealt: Photo by Thomasbg on Wikimedia Commons
   pmid: 33528320
   pmcid: PMC8168380
-  openaccess: 
-  doi: 10.1080/21507740.2020.1866098 
+  openaccess:
+  doi: 10.1080/21507740.2020.1866098
   file: "Mergenthaler JV, Chiong W, Dohan D et al - A Qualitative Analysis of Ethical Perspectives on Recruitment and Consent for Human Intracranial Electrophysiology Studies.pdf"
   filetype: "pdf - author manuscript version (peer-reviewed & edited)"
   github:
   biorxiv:
-  psyarxiv: 
+  psyarxiv:
   contentshare: https://www.tandfonline.com/eprint/IIISBQVWYTGBN79SUFCI/full?target=10.1080/21507740.2020.1866098
-  preregistered: 
-  opendata: 
-  openmaterials: 
-  
+  preregistered:
+  opendata:
+  openmaterials:
+
 
 - authors: "**Fong KC**, **Chiong W**."
   title: "Understanding advance directives as a component of advance care planning."
   details: "American Journal of Bioethics. 2020; 20(8):67-69."
   year: 2020
   image: pubs_2020_Understanding Advance Directives as a Component of Advance Care Planning.png
-  imagealt: 
+  imagealt:
   pmid: 32757912
-  pmcid: 
+  pmcid:
   openaccess:
-  doi: 10.1080/15265161.2020.1781974 
+  doi: 10.1080/15265161.2020.1781974
   file: "Fong - Understanding Advance Directives as a Component of Advance Care Planning.pdf"
   filetype: "pdf - author manuscript version"
   github:
@@ -336,16 +356,16 @@
 
 - authors: "Goss AL, **Chiong W**, Hemphill JC."
   title: "Neurologists' duties in planning for triage of critical care resources in the COVID-19 pandemic."
-  details: "Annals of Neurology. 2020; 88(3):431-432." 
+  details: "Annals of Neurology. 2020; 88(3):431-432."
   year: 2020
   image: pubs_2020_covid.jpg
   imagealt: Image from https://health.mil/News/Gallery/Photos/2020/05/18/Infection-Control-2020
   pmid: 32686102
   pmcid: PMC7405081
   openaccess: https://onlinelibrary.wiley.com/doi/full/10.1002/ana.25852
-  doi: 10.1002/ana.25852 
-  file: 
-  filetype: 
+  doi: 10.1002/ana.25852
+  file:
+  filetype:
   github:
   biorxiv:
   psyarxiv:
@@ -364,8 +384,8 @@
   pmcid: PMC7485591
   openaccess: https://www.tandfonline.com/doi/full/10.1080/21507740.2020.1778118
   doi: 10.1080/21507740.2020.1778118
-  file: 
-  filetype: 
+  file:
+  filetype:
   github:
   biorxiv:
   psyarxiv:
@@ -379,10 +399,10 @@
   details: "Aging & Mental Health. 2021;25(9):1709–15."
   year: 2021
   image: pubs_2020_objective-attitude.png
-  imagealt: 
+  imagealt:
   pmid: 32515603
   pmcid: PMC7748409
-  doi: 10.1080/13607863.2020.1771541 
+  doi: 10.1080/13607863.2020.1771541
   file: "Zahir - Caregiver objective attitude towards patients.pdf"
   filetype: "pdf - author manuscript version (peer-reviewed & edited)"
   github:
@@ -402,9 +422,9 @@
   pmid: 32377557
   pmcid: PMC7201177
   openaccess: https://alz-journals.onlinelibrary.wiley.com/doi/full/10.1002/trc2.12010
-  doi: 10.1002/trc2.12010 
-  file: 
-  filetype: 
+  doi: 10.1002/trc2.12010
+  file:
+  filetype:
   github:
   biorxiv:
   psyarxiv:
@@ -412,13 +432,13 @@
   preregistered:
   opendata:
   openmaterials:
-  
+
 - authors: "**Beagle AJ**, **Zahir A**, **Borzello M**, Kayser AS, Hsu M, Miller BL, Kramer JH, **Chiong W**."
   title: "Amount and delay insensitivity during intertemporal choice in three neurodegenerative diseases reflects dorsomedial prefrontal atrophy."
-  details: "Cortex. 2020; 124:54-65." 
+  details: "Cortex. 2020; 124:54-65."
   year: 2020
   image: pubs_2019_25aIRP.png
-  imagealt: 
+  imagealt:
   pmid: 31837518
   pmcid: PMC7060812
   openaccess:
@@ -438,8 +458,8 @@
   details: "Sociology of Health & Illness. 2020; 42(4):962-963."
   year: 2020
   image: pubs_2020_bioethics.jpg
-  imagealt: 
-  pmid: 
+  imagealt:
+  pmid:
   pmcid:
   openaccess:
   doi: 10.1111/1467-9566.13060
@@ -458,13 +478,13 @@
   details: "Journal of Empirical Research on Human Research Ethics. 2019; 14(5):487-489."
   year: 2019
   image: pubs_2019_teamwork.jpg
-  imagealt: 
+  imagealt:
   pmid: 31779555
   pmcid: PMC6980360
   openaccess:
   doi: 10.1177/1556264619853198a
-  file: 
-  filetype: 
+  file:
+  filetype:
   github:
   biorxiv:
   psyarxiv:
@@ -478,13 +498,13 @@
   details: "JAMA Neurology. 2019; 76(12):1506-1514."
   year: 2019
   image: pubs_2019_hendriks.png
-  imagealt: 
+  imagealt:
   pmid: 31621797
   pmcid:
   openaccess:
   doi: 10.1001/jamaneurol.2019.3523
-  file: 
-  filetype: 
+  file:
+  filetype:
   github:
   biorxiv:
   psyarxiv:
@@ -498,7 +518,7 @@
   details: "JAMA Internal Medicine. 2019; 179(12):1658-1667."
   year: 2019
   image: pubs_2019_map_resized.jpg
-  imagealt: 
+  imagealt:
   pmid: 31566651
   pmcid: PMC6777227
   openaccess: https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2751946
@@ -513,19 +533,19 @@
   opendata:
   openmaterials:
 
-- authors: "**Quinn CM**, **Borzello M**, **Zahir A**, Kramer JH, **Chiong W**." 
+- authors: "**Quinn CM**, **Borzello M**, **Zahir A**, Kramer JH, **Chiong W**."
   title: "COMT Val158Met polymorphism associated with greater susceptibility to framing effects in healthy older adults."
   details: "bioRxiv. 2019. [unrefereed preprint]"
   year: 2019
   image: pubs_2019_comt_framing.png
-  imagealt: 
+  imagealt:
   pmid:
-  pmcid: 
-  openaccess: 
+  pmcid:
+  openaccess:
   doi: 10.1101/790808
-  file: 
-  filetype: 
-  github: 
+  file:
+  filetype:
+  github:
   contentshare:
   biorxiv: https://www.biorxiv.org/content/10.1101/790808v1
   psyarxiv:
@@ -541,10 +561,10 @@
   image: pubs_2019_Neurodegen_resized.jpg
   imagealt: Image courtesy of Salvatore Spina, MD PhD
   pmid: 31590743
-  pmcid: 
+  pmcid:
   doi: 10.1016/B978-0-12-804281-6.00021-5
   file:
-  filetype: 
+  filetype:
   github:
   biorxiv:
   psyarxiv:
@@ -562,7 +582,7 @@
   pmcid: PMC6898731
   doi: 10.1111/jgs.16076
   file:
-  filetype: 
+  filetype:
   github:
   biorxiv:
   psyarxiv:
@@ -580,7 +600,7 @@
   pmcid: PMC7004209
   doi: 10.3233/JAD-180957
   file:
-  filetype: 
+  filetype:
   github:
   biorxiv:
   psyarxiv:
@@ -588,7 +608,7 @@
   preregistered:
   opendata:
   openmaterials:
-  
+
 - authors: "Guterman EL, Allen IE, Josephson SA, Merrilees JJ, Dulaney S, **Chiong W**, Lee K, Bonasera SJ, Miller BL, Possin KL."
   title: "Association between caregiver depression and emergency department use among patients with dementia."
   details: "JAMA Neurology. 2019; 76(10):1166-1173."
@@ -599,7 +619,7 @@
   openaccess: https://jamanetwork.com/journals/jamaneurology/fullarticle/2737045
   doi: 10.1001/jamaneurol.2019.1820
   file:
-  filetype: 
+  filetype:
   github:
   biorxiv:
   psyarxiv:
@@ -617,7 +637,7 @@
   pmcid: PMC7183386
   doi: 10.1016/j.jalz.2019.03.015
   file:
-  filetype: 
+  filetype:
   github:
   biorxiv:
   psyarxiv:
@@ -625,18 +645,18 @@
   preregistered:
   opendata:
   openmaterials:
-  
+
 - authors: "Thomas ML, Martin AS, Eyler L, Lee EE, Macagno E, Devereaux M, **Chiong W**, Jeste DV."
   title: "Individual differences in level of wisdom are associated with brain activation during a moral decision‐making task."
   details: "Brain and Behavior. 2019; 9(6):e01302."
   year: 2019
   image: pubs_2019_wisdom_resized.jpg
-  pmid: 31044549 
+  pmid: 31044549
   pmcid: PMC6577614
   openaccess: https://onlinelibrary.wiley.com/doi/full/10.1002/brb3.1302
   doi: 10.1002/brb3.1302
   file:
-  filetype: 
+  filetype:
   github:
   biorxiv:
   psyarxiv:
@@ -655,20 +675,20 @@
   openaccess: https://www.sciencedirect.com/science/article/pii/S221315821930172X?via%3Dihub
   doi: 10.1016/j.nicl.2019.101822
   file:
-  filetype: 
+  filetype:
   github:
-  
+
 - authors: "Ramos KM, Grady C, Greely HT, **Chiong W**, Eberwine J, Farahany NA, Johnson LS, Hyman SE, Rommelfanger KS, Serrano EE, Churchill JD, Gordon JA, Koroshetz WJ."
   title: "The NIH BRAIN initiative: Integrating neuroethics and neuroscience."
   details: "Neuron. 2019. 101(3):394-398."
   year: 2019
   image: pubs_2019_BRAIN_v2.png
   pmid: 30731065
-  pmcid: 
+  pmcid:
   openaccess: https://www.cell.com/neuron/fulltext/S0896-6273(19)30051-0?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0896627319300510%3Fshowall%3Dtrue
   doi: 10.1016/j.neuron.2019.01.024
   file:
-  filetype: 
+  filetype:
   github:
 
 - authors: "Greely HT, Grady C, Ramos KM, **Chiong W**, Eberwine J, Farahany NA, Johnson LS, Hyman BT, Hyman SE, Rommelfanger KS, Serrano EE."
@@ -677,13 +697,13 @@
   year: 2018
   image: pubs_2019_BRAIN_v2.png
   pmid: 30541767
-  pmcid: PMC6297371 
+  pmcid: PMC6297371
   openaccess: https://www.jneurosci.org/content/38/50/10586
   doi: 10.1523/JNEUROSCI.2077-18.2018
   file:
-  filetype: 
+  filetype:
   github:
-  
+
 - authors: "Merrilees JJ, Bernstein A, Dulaney S, **Heunis J**, Walker R, Rah E, Choi J, Gawlas K, Carroll S, Ong P, Feuer J, Braley T, Clark AM, Lee K, **Chiong W**, Bonasera SJ, Miller BL, Possin KL."
   title: "The Care Ecosystem: Promoting self-efficacy among dementia family caregivers."
   details: "Dementia. 2018."
@@ -693,7 +713,7 @@
   pmcid: PMC6541533
   doi: 10.1177/1471301218814121
   file:
-  filetype: 
+  filetype:
   github:
 
 - authors: "**Vaishnav NH**, **Chiong W**."
@@ -703,14 +723,14 @@
   image: pubs_2018_informedconsent.jpg
   imagealt: Photo by Marcelo Leal on Unsplash
   pmid: 30321892
-  pmcid: 
+  pmcid:
   doi: 10.1055/s-0038-1668077
   file: "Vaishnav, Chiong - Informed consent for the human research subject with a neurologic disorder.pdf"
   filetype: "pdf - published version"
   github:
 
 - authors: "**Chiong W**, Leonard MK, Chang EF."
-  title: "Neurosurgical patients as human research subjects: 
+  title: "Neurosurgical patients as human research subjects:
           Ethical considerations in intracranial electrophysiology research."
   details: "Neurosurgery. 2018; 83(1):29-37."
   year: 2018
@@ -718,7 +738,7 @@
   pmid: 28973530
   pmcid: PMC5777911
   doi: 10.1093/neuros/nyx361
-  file: 
+  file:
   filetype:
   github:
 
@@ -730,7 +750,7 @@
   image: pubs_2018_pet-scans1.jpg
   imagealt: Image courtesy of Renaud La Joie, PhD.
   pmid: 29059264
-  pmcid: 
+  pmcid:
   doi: 10.1001/jamaneurol.2017.2558
   file:
   github:
@@ -739,7 +759,7 @@
             Hooper SM, Dulaney S, Braley T, Laohavanich S, Feuer JE, Clark AM, Schaffer MW,
             Schenk AK, **Heunis J**, Ong P, Cook KM, Bowhay AD, Gearhart R, Chodos A, Naasan G,
             Bindman AB, Dohan D, Ritchie C, Miller BL."
-  title: "Development of an adaptive, personalized, and scalable dementia care program: Early 
+  title: "Development of an adaptive, personalized, and scalable dementia care program: Early
           findings from the Care Ecosystem."
   details: "PLoS Medicine. 2017; 14(3):e1002260."
   year: 2017
@@ -770,7 +790,7 @@
   image: pubs_2016_failurestodiscuss.jpg
   imagealt: Photo by Cytonn Photography on Unsplash
   pmid: 27060164
-  pmcid: 
+  pmcid:
   doi: 10.1212/WNL.0000000000002626
   file:
   github:
@@ -783,11 +803,11 @@
   image: pubs_2016_waivers-consent-acute-stroke_resized.jpg
   pmid: 27009262
   pmcid: PMC4836887
-  doi: 10.1212/WNL.0000000000002587 
+  doi: 10.1212/WNL.0000000000002587
   file:
   github:
   preregistered: https://www.crd.york.ac.uk/PROSPERO/display_record.php?RecordID=10204
-  
+
 - authors: "**Huang IA**, Neuhaus JM, **Chiong W**."
   title: "Racial and ethnic differences in advance directive possession: Role of demographic factors, religious affiliation, and personal health values in a national survey of older adults."
   details: "Journal of Palliative Medicine. 2016; 19(2):149-56."
@@ -811,7 +831,7 @@
   doi: 10.1093/brain/awv344
   file:
   github:
-  
+
 - authors: "**Chiong W**, Kim AS, **Huang IA**, Farahany NA, Josephson SA."
   title: "Inability to consent does not diminish the desirability of stroke thrombolysis."
   details: "Annals of Neurology. 2014; 76(2):296-304."
@@ -837,7 +857,7 @@
   doi: 10.1080/13554794.2013.770886
   file:
   github:
-  
+
 - authors: "**Chiong W**, Kim AS, **Huang IA**, Farahany NA, Josephson SA."
   title: "Testing the presumption of consent to emergency treatment for acute ischemic stroke."
   details: "JAMA. 2014; 311(16):1689-91."
@@ -856,7 +876,7 @@
   preregistered: https://osf.io/ny3je/
   opendata: https://osf.io/m8dtk/
   openmaterials: https://osf.io/m8dtk/
-  
+
 - authors: "**Chiong W**."
   title: "Dementia and personal identity: Implications for decision-making."
   details: "Handbook of Clinical Neurology. 2013; 118(1):409-18."
@@ -864,7 +884,7 @@
   image: pubs_2013_dementiapersonalidentity.jpg
   imagealt: Photo by Hans-Peter Gauster on Unsplash
   pmid: 24182394
-  pmcid: 
+  pmcid:
   doi: 10.1016/B978-0-444-53501-6.00032-9
   file:
   github:
@@ -880,15 +900,15 @@
   doi: 10.1093/brain/awt066
   file:
   github:
-  
+
 - authors: "**Chiong W**."
   title: "The self: From philosophy to cognitive neuroscience."
-  details: Neurocase. 2011; 17(3):190-200. 
+  details: Neurocase. 2011; 17(3):190-200.
   year: 2011
   image: pubs_2011_theself.jpg
   imagealt: Photo by Kyle Glenn on Unsplash
   pmid: 21506043
-  pmcid: 
+  pmcid:
   doi: 10.1080/13554794.2010.532808
   file: "Chiong - The self_ From philosophy to cognitive neuroscience .pdf"
   filetype: "pdf - author manuscript version (peer-reviewed & edited)"
@@ -901,7 +921,7 @@
   image: pubs_2010_therapeuticmisconception.jpg
   imagealt: Photo by rawpixel on Unsplash
   pmid: 20437575
-  pmcid: 
+  pmcid:
   doi: 10.1002/ana.22003
   file: "Chiong - Therapeutic misconceptions and moral conflict in clinical research.pdf"
   filetype: "pdf - author manuscript version (peer-reviewed & edited)"
@@ -914,19 +934,19 @@
   image: pubs_2007_justifyingpatientrisks.jpg
   imagealt: Photo by Piron Guillaume on Unsplash
   pmid: 17785649
-  pmcid: 
+  pmcid:
   doi: 10.1001/jama.298.9.1046
   file:
   github:
-  
+
 - authors: "**Chiong W**."
   title: "The real problem with equipoise."
   details: American Journal of Bioethics. 2006; 6(4):37-47.
   year: 2006
   image: pubs_2006_realproblemwithequipoise.jpg
-  imagealt: 
-  pmid: 16885104 
-  pmcid: 
+  imagealt:
+  pmid: 16885104
+  pmcid:
   doi: 10.1080/15265160600755565
   file: "Chiong - The real problem with equipoise (1).pdf"
   filetype: "pdf - author manuscript version (peer-reviewed & edited)"
@@ -937,9 +957,9 @@
   details: Hastings Center Report. 2005; 35(6):20-30.
   year: 2005
   image: pubs_2005_braindeath.jpg
-  imagealt: 
+  imagealt:
   pmid: 16396202
-  pmcid: 
+  pmcid:
   doi: 10.1353/hcr.2005.0105
   file: "Chiong - Brain death without definitions.pdf"
   filetype: "pdf - author manuscript version (peer-reviewed & edited)"
