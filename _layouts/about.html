@@ -16,7 +16,7 @@ layout: page
     </div>
     {% if page.profile.address %}
       <div class="profile-address">
-        {{ page.profile.address }}
+        {{ page.profile.address | raw }}
       </div>
     {% endif %}
   </div>
