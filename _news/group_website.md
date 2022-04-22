@@ -1,7 +1,7 @@
 ---
 layout: post
-date: Oct 26, 2021
+date: Apr 22, 2022
 inline: true
 ---
 
-The (renewed) group website is now live!
+The lab website is now live!
