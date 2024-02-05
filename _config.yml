@@ -3,9 +3,8 @@
 # permalink: /:categories/:year/:month/:day/:title 
 permalink: /:categories/:title 
 
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".sublime-project", ".sublime-workspace"]
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".sublime-project", ".sublime-workspace", "vendor"]
 highlighter: rouge
-# gem: [jekyll-admin]
 
 markdown: kramdown
 
@@ -17,16 +16,16 @@ repository: see-lab/see-lab.github.io
 title : The SEE Lab
 tagline: The Sustainable Energy and Environments (SEE) Laboratory
 institution:
-  url: https://www.psu.edu/
-  name: Pennsylvania State University
+  url: https://www.uvm.edu
+  name: The University of Vermont
 department:
-  url: https://www.ae.psu.edu/
-  name: Architectural Engineering
+  url: https://www.uvm.edu/cems/cee
+  name: Civil and Environmental Engineering
 author :
   name : Kathryn Hinkelman
   email : khinkelman@psu.edu
   github : khinkelman
-#  twitter : 
+  twitter : khinkelman
 #  feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
@@ -110,16 +109,16 @@ JB :
   # Set 'provider' to false to turn analytics off globally.
   #
   analytics :
-    provider : false # google
+    provider : google
     google : 
-      tracking_id : #'UA-54141513-1'
+      tracking_id : 'UA-62008526-1'
     getclicky :
       site_id : 
     mixpanel :
-      token : #'_MIXPANEL_TOKEN_'
+      token : '_MIXPANEL_TOKEN_'
     piwik :
-      baseURL : #'myserver.tld/piwik' # Piwik installation address (without protocol)
-      idsite : #'1'                   # the id of the site on Piwik
+      baseURL : 'myserver.tld/piwik' # Piwik installation address (without protocol)
+      idsite : '1'                   # the id of the site on Piwik
 
   # Settings for sharing 
   # Sharing is for things like tweet, plusone, hn upvotes, like, linkedin
@@ -132,7 +131,7 @@ JB :
   # Set 'provider' to false to turn sharing off globally.
   #
   sharing :
-   provider : false
+   provider : tweet
    twitter :
      size :
      via :
@@ -161,8 +160,7 @@ JB :
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
   
-# allow page redirection:
-plugins:
+# allow page redirection
+plugins_dir:
   - jekyll-redirect-from
-  - jekyll-admin
   

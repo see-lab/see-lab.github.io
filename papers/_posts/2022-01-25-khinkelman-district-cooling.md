@@ -12,12 +12,16 @@ authors: "Kathryn Hinkelman, Jing Wang, Wangda Zuo, Antoine Gautier, Michael Wet
 image: /assets/images/papers/2022_khinkelman_district-cooling.jpg
 redirect_from: 
 fulltext: "https://doi.org/10.1016/j.apenergy.2022.118654"
-pdf: /assets/pdfs/2022_khinkelman_district-cooling.pdf
-pdflink: 
+pdflink: /assets/pdfs/2022_khinkelman_district-cooling.pdf
 github:  "https://github.com/lbl-srg/modelica-buildings/releases/tag/v8.1.0"
 doi: 10.1016/j.apenergy.2022.118654
 category: paper
+# Note: 'published' is a Jekyll keyword and does not refer to whether the paper is published, but rather to whether this Markdown should be part of the rendered site.
 published: true
+preprint: false
+embargo: false	
+peerreview: false
+review: false
 tags: [district cooling, modelica, modeling and simulation, waterside economizer, optimization, case study]
 ---
 {% include JB/setup %}

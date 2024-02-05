@@ -18,7 +18,7 @@ module Jekyll
 		
 			url = Liquid::Template.parse(@markup).render context
 			if url =~ /^\//
-				url = "http://ideallab.github.io" + url
+				url = "http://drummondlab.github.io" + url
 			end
 			json_object = JSON.parse(open("http://urls.api.twitter.com/1/urls/count.json?url=#{url}").read)
 			count = json_object["count"]
