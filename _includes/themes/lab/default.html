@@ -101,6 +101,8 @@
           {% assign pages_list = (site.pages | sort: 'navorder') %}
           {% assign group = 'navigation' %}
           {% include JB/pages_list %}
+          <!-- Below is for the "More" subnavigation, if present-->
+          <!--
           <li class="dropdown nav navbar-nav">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
               More <span class="caret"></span>
@@ -112,6 +114,7 @@
               {% include JB/pages_list %}
             </ul>
             </li>
+          -->  
         </ul>
       </div><!-- /.navbar-collapse -->
     </nav>
@@ -141,7 +144,7 @@
         </ul>
         <ul class="nav navbar-nav navbar-right navbar-small">
           <li><a href='/about.html#purpose'>About</a></li>
-          <li><a href='/news/2024-02-02-Openings'>Join</a></li>
+          <li><a href='/news/openings'>Join</a></li>
           <li><a href='/about.html#contact'>Contact</a></li>
           <li><a href='https://www.github.com/see-lab/'>GitHub</a></li>
         </ul>

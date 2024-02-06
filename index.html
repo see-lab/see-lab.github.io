@@ -65,6 +65,41 @@ categories:
 <div class="row">
 	<div class="col-md-4">
 		<div class="head">
+			<a class="off" href="/projects/">Research</a>
+		</div>
+		<div class="bigspacer"></div>
+		<div class="feedbox pad-left">
+			{% for post in site.categories.projects limit:4 %}
+			
+				{% for member in site.categories.team %}
+					{% if member.handle == post.author_handle %}
+						{% assign author = member %}
+					{% endif %}
+				{% endfor %}		
+				
+				<div class="note-title">
+					<i class="fa fa-comment-o fa-fw"></i>
+					<a class="off" href="{{ post.url }}">
+					{{ post.title }}
+					</a>
+				</div>
+				<div class="smallspacer"></div>
+				<div class="smallnote">
+					Posted
+					{{ post.date | date_to_string }}
+					{% if author %}
+					by <a class="off" href="{{ author.url }}">{{ author.nickname }}</a>
+					{% endif %}						
+				</div>
+				<div class="spacer"></div>	
+				<div class="spacer"></div>				
+			{% endfor %}
+		</div>
+		<div class="bigspacer"></div>		
+	</div>
+	
+	<div class="col-md-4">
+		<div class="head">
 			<a class="off" href="/news/">News</a>
 		</div>
 		<div class="bigspacer"></div>
@@ -100,6 +135,8 @@ categories:
 		</div>
 		<div class="bigspacer"></div>		
 	</div>
+	<!-- Blog section removed-->
+    <!--
 	<div class="col-md-4">
 		<div class="head">
 			<a class="off" href="/blog/">Posts</a>
@@ -134,6 +171,7 @@ categories:
 		</div>
 		<div class="bigspacer"></div>		
 	</div>
+    -->
 	<div class="col-md-4">
 		<div class="head">
 			<a class="off" href="/papers/">Papers
