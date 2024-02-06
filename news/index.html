@@ -44,10 +44,11 @@ navorder: 4
 			<div class="head">
 				{{ post.title }}
 			</div>
+            <div class="smallspacer"></div>
 			<div class="smallnote">
 				{{ post.date | date_to_string }}
 				{% if author %}
-				by <a class="off" href="{{ author.url }}">{{ author.handle }}</a>
+				by <a class="off" href="{{ author.url }}">{{ post.author }}</a>
 				{% endif %}				
 			</div>	
 		</div>

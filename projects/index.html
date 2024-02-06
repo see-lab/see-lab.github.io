@@ -12,27 +12,43 @@ navorder: 1
   We are working on this page. Stay tuned.
   <hr/>
 </div>
+
 {% for project in site.categories.projects %}
-<div class='row'>
-  <!--
-  <div class='row'>
-    <div class='col-md-12'>
-    <div class="media">
-      <a class="project-image" href="{{ project.url }}">
-        <img class="media-object" src="{{ project.image }}">
-      </a>
+
+    {% cycle 'add rows': '<div class="row">
+    ', '', '' %}
+    <div class="col-md-4 projectbox">
+        <div class="media">
+            <a class="project-image" href="{{ project.url }}">
+                <img class="media-object member-photo" src="{{ project.image }}">
+            </a>
+        </div>
+        <div class="smallhead media-heading">
+            <a href="{{ project.url }}" class="off">{{ project.title }}</a>
+        </div>
+        <div class="smallspacer"></div>
+        <!--Uncomment the below rows if want to add a small description to each page (currently not in page yaml)-->
+        <!--       <div class="note">
+            <a href="{{ project.url }}" class="off">{{ project.description }}</a>
+        </div>
+        -->
+        <div class="smallspacer"></div>
+        <div class="smallnote">
+            Updated
+            <a class="off" href="{{ project.commits.first.url }}">
+                {{ project.commits.first.date | date: "%-d %b %Y" }}
+            </a>
+            by
+            <a class="off" href="{{ project.commits.first.author_url }}">
+                {{ project.commits.first.author_login }}
+            </a>
+        </div>
+        <div class="bigspacer"></div>
+        <div class="spacer"></div>
     </div>
-  </div>
-  -->
-  <div class='row'>
-    <div class="col-md-4 paperbox">
-      <div class="smallhead media-heading"><a href="{{ project.url }}" class="off">{{ project.title }}</a></div>
-    </div>
-    <div class='col-md-8'>
-      {{ project.content }}
-    </div>
-  </div>
-</div>
+    {% cycle 'close rows': '', '', '
+</div>' %}
 {% endfor %}
+{% cycle 'close rows': '', '</div>', '</div>' %}
 
 <div class="bigspacer"></div>
