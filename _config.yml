@@ -25,7 +25,7 @@ author :
   name : Kathryn Hinkelman
   email : khinkelman@psu.edu
   github : khinkelman
-  twitter : khinkelman
+#  twitter : khinkelman
 #  feedburner : feedname
 
 # The production_url is only used when full-domain names are needed

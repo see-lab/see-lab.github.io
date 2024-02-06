@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Protocols"
+title: "Tools"
 description: ""
 group: subnavigation
 navorder: 5
@@ -29,15 +29,15 @@ navorder: 5
 
 </div>
 
-Here you'll find protocols from others that we've found useful and tweaked to our liking, and our own protocols that we encourage others to use. Almost always a bit of both.
+Here you'll find software tools developed by members of the SEE Lab.
 
 <hr>
 
-{% for protocol in site.categories.protocol %}
+{% for tools in site.categories.tools %}
 
     {% assign author = 0 %}
     {% for member in site.categories.team %}
-			{% if member.title == protocol.author %}
+			{% if member.title == tools.author %}
 				{% assign author = member %}
 			{% endif %}
 		{% endfor %}
@@ -46,18 +46,18 @@ Here you'll find protocols from others that we've found useful and tweaked to ou
 		<div class="row">
 			<div class="col-md-12">
 				<div class="smallhead">
-					<a href="{{ protocol.url }}" class="off">{{ protocol.title }}</a>
+					<a href="{{ tools.url }}" class="off">{{ tools.title }}</a>
 				</div>
 				<div class="smallnote">
-					{%comment%}{{ protocol.date | date_to_string }}{% endcomment %}
+					{%comment%}{{ tools.date | date_to_string }}{% endcomment %}
 					{% if author != 0 %}
 					by <a class="off" href="{{ author.url }}">{{ author.handle }}</a>
 					{% endif %}
 				</div>
 				<div class="subtle smallnote">
 					tags:
-					{% for tag in protocol.tags %}
-						{{ tag }}{% if tag != protocol.tags.last %},{% endif %}
+					{% for tag in tools.tags %}
+						{{ tag }}{% if tag != tools.tags.last %},{% endif %}
 					{% endfor %}
 				</div>
 
