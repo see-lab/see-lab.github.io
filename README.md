@@ -1,6 +1,7 @@
-# The Drummond Lab main website
+# The SEE Lab main website
 
-Our website, http://drummondlab.org, is a [GitHub Pages](https://pages.github.com/) site built with [Jekyll](https://jekyllrb.com/) and [Bootstrap](http://getboostrap.com), originally pulled from [Trevor Bedford's site](http://bedford.io) and heavily modified.
+Our website, https://theseelab.org, is a [GitHub Pages](https://pages.github.com/) site built with [Jekyll](https://jekyllrb.com/) and [Bootstrap](http://getboostrap.com).
+This site was originally pulled from [The Drummond Lab site](https://drummondlab.org/), with parts of the [Bedford Lab](http://bedford.io) and [IDEAL Lab](https://ideal.umd.edu/) integrated with modifications. Most of the below guide is courtesy of the The Drummond Lab.
 
 # Editing the site
 
@@ -8,15 +9,15 @@ Here's a step-by-step guide to making modifications to the site, focused initial
 
 ## Clone the repository
 
-If you're a member of the [Drummond Lab team](https://github.com/orgs/drummondlab/teams/drummond-lab-team), you have access to the website repository.
+If you're a member of the [SEE Lab team](https://github.com/see-lab), you have access to the website repository.
 
 To clone the repository, making a local copy on your machine:
 
-	git clone git@github.com:drummondlab/drummondlab.github.io
+	git clone git@github.com:drummondlab/see-lab.github.io
 
 Enter your local repository and check out the `staging` branch, where you'll make changes before promoting them to the `master` branch and publishing them:
 
-	cd drummondlab.github.io
+	cd see-lab.github.io
 	git checkout staging
 
 ## Overview of the structure
@@ -27,32 +28,32 @@ The template files are weird-looking HTML files residing in the `_includes/theme
 
 ## How to add content
 
-For most common actions---adding a lab member, paper, protocol, or news item---you'll be making a new Markdown file in the proper location, naming it properly, and filling in the required fields. In almost all cases, you can (and should!) copy an existing item, change the name, and change its content, rather than trying to write a Markdown document from scratch.
+For most common actions---adding a lab member, paper, tool, project, or news item---you'll be making a new Markdown file in the proper location, naming it properly, and filling in the required fields. In almost all cases, you can (and should!) copy an existing item, change the name, and change its content, rather than trying to write a Markdown document from scratch.
 
 For example, suppose you want to add a news item, which will appear on the front page, announcing that you have created a yeast strain capable of secreting high-quality chardonnay. Go into the `news/_posts` folder. Copy one of the existing items into a new file named with today's date (it matters!) and a brief title:
 
-	cp 2017-12-15-allan-tenure.md 2024-01-31-wine-yeast.md
+	cp 2021-12-15-conference-presentation1.md 2024-01-31-ena-exergy.md
 
 The date is used by the generator; it's inelegant and perhaps there's a way to do it differently, but that's how it is for now. Now edit the new file to make the content what you want. Just open it in your favorite editor and type away. By the time you're done, hopefully you have something like this:
 
 	---
 	layout: news
-	title: "New yeast strain makes chardonnay"
+	title: "Exergy analysis improves knowledge for designing integrated energy systems"
 	author: "X. Obsequious Trenchcoat"
 	author_handle: "xot"
 	image: /assets/images/news/default-news.png
 	category: news
 	tags: [breakthrough]
 	---
-	Today we are thrilled to announce a new strain of yeast that secretes beautifully oaked chardonnay. See more details in our [preprint](http://biorxiv.org/content/10.1101/0000000)!
+	Today we are thrilled to announce new design metrics for complex energy systems that improves upon standard engineering methods today. See more details in our [preprint](http://biorxiv.org/content/10.1101/0000000)!
 
 Now add it to the repository:
 
-	git add 2024-01-31-wine-yeast.md
+	git add 2024-01-31-ena-exergy.md
 
 And, when you're happy with it, commit and push:
 
-	git commit -m "announcing new yeast strain"
+	git commit -m "announcing new network exergy analysis finding"
 	git push
 
 This new announcement won't yet be public. The next section shows you how to do that.
@@ -80,7 +81,7 @@ and push to GitHub:
 
 	git push
 
-Changes won't be immediate, so wait a minute or two while GitHub's servers regenerate the site and publish it. Check to make sure the public site http://drummondlab.org looks the way you intend.
+Changes won't be immediate, so wait a minute or two while GitHub's servers regenerate the site and publish it. Check to make sure the public site http://theseelab.org looks the way you intend.
 
 Finally, check out `staging` again so that you don't accidentally start working on the `master` branch the next time you sit down:
 
@@ -92,7 +93,7 @@ Fonts, colors, spacing, and similar stylings are separate from the template page
 
 ### To-dos
 
-See Issues on [the site](https://github.com/drummondlab/drummondlab.github.io).
+See Issues on [the site](https://github.com/see-lab/see-lab.github.io).
 
 
 ## License
