@@ -4,7 +4,8 @@ title: "Dynamic Ecological Network Analysis of Community Energy Systems"
 handle: ena
 author_handle: kgh
 image: /assets/images/projects/ecological-network-analysis.png
-category: project
+sponsor: "U.S. DOE BTO"
+category: projects
 tags: [biomimicry, community energy, exergy analysis, ecological network analysis]
 ---
 {% include JB/setup %}

@@ -6,7 +6,8 @@ handle: handle
 author_handle: handle1, handle2
 url: 
 image: /assets/images/projects/project-blank.svg
-category: project
+sponsor: sponsor
+category: projects
 tags: [tag1, tag2]
 ---
 {% include JB/setup %}
