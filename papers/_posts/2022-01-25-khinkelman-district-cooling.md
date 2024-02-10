@@ -9,7 +9,7 @@ volume: "311"
 issue: 
 pages: "118654"
 authors: "Kathryn Hinkelman, Jing Wang, Wangda Zuo, Antoine Gautier, Michael Wetter, Chengliang Fan, Nicholas Long"
-image: /assets/images/papers/2022_khinkelman_district-cooling.jpg
+image: /assets/images/papers/2022-dc-modelica-model.png
 redirect_from: 
 fulltext: "https://doi.org/10.1016/j.apenergy.2022.118654"
 pdflink: "https://www.researchgate.net/publication/358570363_Modelica-based_modeling_and_simulation_of_district_cooling_systems_A_case_study"
