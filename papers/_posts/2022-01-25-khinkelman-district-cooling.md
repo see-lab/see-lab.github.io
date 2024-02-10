@@ -2,7 +2,7 @@
 layout: paper
 title: "Modelica-based modeling and simulation of district cooling systems: A case study"
 year: "2022"
-shortref: "Kathryn Hinkelman, et al., <i>Applied Energy</i> 2022"
+shortref: "Hinkelman et al. <i>Applied Energy</i> 2022"
 nickname: district-cooling
 journal: "Applied Energy"
 volume: "311"
@@ -12,7 +12,7 @@ authors: "Kathryn Hinkelman, Jing Wang, Wangda Zuo, Antoine Gautier, Michael Wet
 image: /assets/images/papers/2022_khinkelman_district-cooling.jpg
 redirect_from: 
 fulltext: "https://doi.org/10.1016/j.apenergy.2022.118654"
-pdflink: /assets/pdfs/2022_khinkelman_district-cooling.pdf
+pdflink: "https://www.researchgate.net/publication/358570363_Modelica-based_modeling_and_simulation_of_district_cooling_systems_A_case_study"
 github:  "https://github.com/lbl-srg/modelica-buildings/releases/tag/v8.1.0"
 doi: 10.1016/j.apenergy.2022.118654
 category: paper
