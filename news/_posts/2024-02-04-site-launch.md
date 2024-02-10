@@ -6,6 +6,7 @@ author_handle: "kgh"
 image: /assets/images/news/default-news.png
 category: news
 tags: [publication]
+published: false
 ---
 [Katy] has launced the SEE Lab at the [University of Vermont][1].
 
