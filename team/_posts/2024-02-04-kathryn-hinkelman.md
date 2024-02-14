@@ -14,12 +14,12 @@ image: /assets/images/team/kathryn-hinkelman.jpg
 cv: /assets/pdfs/khinkelman-cv.pdf
 alum: false
 ---
-Katy is an Assistant Professor of [Environmental Engineering] at the [University of Vermont]. 
+Dr. Hinkelman is an Assistant Professor of [Environmental Engineering] at the [University of Vermont]. 
 She joined the UVM faculty in 2024 following a position as a Postdoctoral Scholar at 
 [Pennsylvania State University][PSU] (PSU).
 
-Katy received her Ph.D. in [Architectural Engineering][AE] 
-from PSU, advised by [Wangda Zuo][SBS]. She has M.S. and B.S. degrees 
+Dr. Hinkelman received her Ph.D. in [Architectural Engineering][AE] 
+from PSU, advised by [Dr. Wangda Zuo][SBS]. She has M.S. and B.S. degrees 
 in Mechanical Engineering from the University of California at 
 Berkeley and the University of Denver, respectively. For three years, Katy 
 worked in the building industry designing mechanical, electrical, 
