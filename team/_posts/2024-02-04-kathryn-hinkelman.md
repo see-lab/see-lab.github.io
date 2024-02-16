@@ -10,7 +10,7 @@ researchgate: Kathryn-Hinkelman-2
 github: khinkelman
 scholar: citations?user=ZB1OQFAAAAAJ&hl=en&authuser=
 orcid: 0000-0002-8297-6036
-image: /assets/images/team/kathryn-hinkelman.jpg
+image: /assets/images/team/kathryn-hinkelman-square.jpg
 cv: /assets/pdfs/khinkelman-cv.pdf
 alum: false
 ---
