@@ -16,6 +16,7 @@ pdflink: "https://www.researchgate.net/publication/376103976_Exergy-based_ecolog
 # github: 
 doi: 10.1016/j.enbuild.2023.113807
 category: paper
+projects_handle: biceps
 # Note: 'published' is a Jekyll keyword and does not refer to whether the paper is published, but rather to whether this Markdown should be part of the rendered site.
 published: true
 preprint: false
@@ -26,7 +27,9 @@ tags: [district energy, dynamic systems, ecosystem biomimicry, exergy, graph the
 ---
 {% include JB/setup %}
 
-# Abstract 
+<div class="bigspacer"></div>
+<div class="head">Abstract</div>
+<div class="spacer"></div>
 
 Although buildings are transitioning towards complex, dynamic, and interconnected systems, 
 traditional engineering metrics that dominate today don't capture several important whole-network 
@@ -47,7 +50,9 @@ This indicates that ENA and other network approaches that classify system organi
 traditional efficiency-based metrics for building and community energy systems when whole-system 
 perspectives are desired.
 
-# BibTeX Citation
+<div class="bigspacer"></div>
+<div class="head">BibTeX Citation</div>
+<div class="spacer"></div>
 
 ```
 @article{HINKELMAN2024113807,

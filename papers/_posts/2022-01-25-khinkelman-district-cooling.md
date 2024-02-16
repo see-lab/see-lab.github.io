@@ -16,6 +16,7 @@ pdflink: "https://www.researchgate.net/publication/358570363_Modelica-based_mode
 github:  "https://github.com/lbl-srg/modelica-buildings/releases/tag/v8.1.0"
 doi: 10.1016/j.apenergy.2022.118654
 category: paper
+projects_handle: doe-des
 # Note: 'published' is a Jekyll keyword and does not refer to whether the paper is published, but rather to whether this Markdown should be part of the rendered site.
 published: true
 preprint: false
@@ -26,7 +27,9 @@ tags: [district cooling, modelica, modeling and simulation, waterside economizer
 ---
 {% include JB/setup %}
 
-# Abstract 
+<div class="bigspacer"></div>
+<div class="head">Abstract</div>
+<div class="spacer"></div> 
 
 While equation-based object-oriented modeling language Modelica can evaluate practical energy 
 improvements for district cooling systems, few have adopted Modelica for this type of large-scale 
@@ -43,7 +46,9 @@ combination of the studied measures can save the campus annually 84.6 MWh of ene
 electricity costs, 58.0 metric tons of carbon dioxide emissions, while the waterside economizer 
 cuts down chillers’ run times by 201 days/year, reducing maintenance costs and extending chiller life.
 
-# BibTeX Citation
+<div class="bigspacer"></div>
+<div class="head">BibTeX Citation</div>
+<div class="spacer"></div>
 
 ```
 @article{Hinkelman2022118654,

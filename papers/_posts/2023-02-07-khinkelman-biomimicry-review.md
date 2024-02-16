@@ -16,6 +16,7 @@ pdflink: "https://www.researchgate.net/publication/367308482_Design_methodologie
 # github: 
 doi: 10.1088/1748-3190/acb520
 category: paper
+projects_handle: biceps
 # Note: 'published' is a Jekyll keyword and does not refer to whether the paper is published, but rather to whether this Markdown should be part of the rendered site.
 published: true
 preprint: false
@@ -26,7 +27,9 @@ tags: [biomimicry, design, ecosystem, engineering, methods, sustainability, syst
 ---
 {% include JB/setup %}
 
-# Abstract 
+<div class="bigspacer"></div>
+<div class="head">Abstract</div>
+<div class="spacer"></div>
 
 Ecosystem biomimicry is a promising pathway for sustainable development. However, while 
 typical form- and process-level biomimicry is prevalent, system-level ecosystem biomimicry 
@@ -53,7 +56,9 @@ technological advancement (e.g., implementing membrane computing for physical ap
 studies, this review provides a comprehensive reference for ecosystem biomimetic design practices 
 and application opportunities across multiple engineering domains.
 
-# BibTeX Citation
+<div class="bigspacer"></div>
+<div class="head">BibTeX Citation</div>
+<div class="spacer"></div>
 
 ```
 @article{Hinkelman_2023,

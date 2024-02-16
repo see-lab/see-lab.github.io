@@ -16,6 +16,7 @@ pdflink: "https://www.researchgate.net/publication/332776688_A_Methodology_to_Cr
 # github: 
 doi: 10.1016/j.enbuild.2019.04.037
 category: paper
+projects_handle: false
 # Note: 'published' is a Jekyll keyword and does not refer to whether the paper is published, but rather to whether this Markdown should be part of the rendered site.
 published: true
 preprint: false
@@ -26,7 +27,9 @@ tags: [prototypical building energy models, religious worship building, energy s
 ---
 {% include JB/setup %}
 
-# Abstract 
+<div class="bigspacer"></div>
+<div class="head">Abstract</div>
+<div class="spacer"></div>
 
 Prototypical building energy models are of great significance because they are the starting 
 point in conducting analyses for various applications, such as building energy saving 
@@ -45,7 +48,9 @@ Climate Zones. The results show that the maximum energy saving potentials are ap
 significant opportunities for energy savings in these buildings through their prototypical 
 building model development.
 
-# BibTeX Citation
+<div class="bigspacer"></div>
+<div class="head">BibTeX Citation</div>
+<div class="spacer"></div>
 
 ```
 @article{YE2019351,

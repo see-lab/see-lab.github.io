@@ -1,6 +1,6 @@
 ---
 layout: paper
-title: "Leveraging Life Cycle Assessment to Evaluate Environmental Impacts of Green Cleaning Products"
+title: "Leveraging life cycle assessment to evaluate environmental impacts of green cleaning products"
 year: "2015"
 shortref: "Van Lieshout et al. <i>Procedia CIRP</i> 2015"
 nickname: green-cleaning-lca
@@ -16,6 +16,7 @@ pdflink: "https://www.researchgate.net/publication/277938924_Leveraging_Life_Cyc
 github: 
 doi: 10.1016/j.procir.2015.02.063
 category: paper
+projects_handle: false
 # Note: 'published' is a Jekyll keyword and does not refer to whether the paper is published, but rather to whether this Markdown should be part of the rendered site.
 published: true
 preprint: false
@@ -26,7 +27,9 @@ tags: [life cycle assessment, cleaning products, ecological footprint, global wa
 ---
 {% include JB/setup %}
 
-# Abstract 
+<div class="bigspacer"></div>
+<div class="head">Abstract</div>
+<div class="spacer"></div>
 
 The green cleaning industry continues to pursue products that reduce or eliminate impacts on 
 human health and the environment; however,these impacts over the life cycle are not well understood. 
@@ -38,7 +41,9 @@ improve data quality. Based on the findings, a prioritized list of actions for g
 was developed. 
 
 
-# BibTeX Citation
+<div class="bigspacer"></div>
+<div class="head">BibTeX Citation</div>
+<div class="spacer"></div>
 
 ```
 @article{VANLIESHOUT2015372,

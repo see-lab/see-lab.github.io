@@ -16,6 +16,7 @@ pdflink: "https://www.researchgate.net/publication/360652395_A_fast_and_accurate
 github:  "https://github.com/lbl-srg/modelica-buildings/releases/tag/v10.0.0"
 doi: 10.1016/j.energy.2022.124227
 category: paper
+projects_handle: doe-des
 # Note: 'published' is a Jekyll keyword and does not refer to whether the paper is published, but rather to whether this Markdown should be part of the rendered site.
 published: true
 preprint: false
@@ -26,7 +27,9 @@ tags: [steam, district heating, computing speed, modeling and simulation, modeli
 ---
 {% include JB/setup %}
 
-# Abstract 
+<div class="bigspacer"></div>
+<div class="head">Abstract</div>
+<div class="spacer"></div>
 
 In U.S. district heating (DH) systems, steam is the most common heat transport medium. 
 Industry demand for new advanced modeling capabilities of complete steam DH systems is 
@@ -45,7 +48,9 @@ with negligible compromise to accuracy. For an annual simulation with 180 buildi
 translates to a computing time reduction from 33 to 1–1.5 h. These results are critically 
 important for industry practitioners to simulate steam DH systems at large scales.
 
-# BibTeX Citation
+<div class="bigspacer"></div>
+<div class="head">BibTeX Citation</div>
+<div class="spacer"></div>
 
 ```
 @article{HINKELMAN2022124227,

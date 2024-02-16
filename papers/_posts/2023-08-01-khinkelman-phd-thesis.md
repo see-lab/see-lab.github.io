@@ -1,6 +1,6 @@
 ---
 layout: paper
-title: "Modelica Modeling and Ecosystem Biomimicry of District Energy Systems"
+title: "Modelica modeling and ecosystem biomimicry of district energy systems"
 year: "2023"
 shortref: "Hinkelman <i>Pennsylvania State University</i> 2023"
 nickname: hinkelman-phd-thesis
@@ -13,6 +13,7 @@ pdflink: "https://www.researchgate.net/publication/374229997_Modelica_Modeling_a
 # github: 
 doi: 
 category: paper
+projects_handle: biceps, doe-des
 # Note: 'published' is a Jekyll keyword and does not refer to whether the paper is published, but rather to whether this Markdown should be part of the rendered site.
 published: true
 preprint: false
@@ -23,7 +24,9 @@ tags: [biomimicry, building systems, design, district energy, district heating, 
 ---
 {% include JB/setup %}
 
-# Abstract 
+<div class="bigspacer"></div>
+<div class="head">Abstract</div>
+<div class="spacer"></div>
 
 By integrating multiple energy systems at a community level, it is possible to use local 
 renewable energy supplies and share energy resources between various producers, consumers, 
@@ -87,7 +90,9 @@ efficiency of the total system from 60% to 34%. This indicates that ENA and othe
 system organization can outperform traditional efficiency-based metrics for integrated energy systems.
 
 
-# BibTeX Citation
+<div class="bigspacer"></div>
+<div class="head">BibTeX Citation</div>
+<div class="spacer"></div>
 
 ```
 @phdthesis{hinkelman2023modelica,

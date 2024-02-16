@@ -1,6 +1,6 @@
 ---
 layout: paper
-title: "Evaluating the Energy Impact Potential of Energy Efficiency Measures for Retrofit Applications: A Case Study with U.S. Medium Office Buildings"
+title: "Evaluating the energy impact potential of energy efficiency measures for retrofit applications: A case study with U.S. medium office buildings"
 year: "2021"
 shortref: "Ye et al. <i>Building Simulation</i> 2021"
 nickname: medium-office-retrofits
@@ -16,6 +16,7 @@ pdflink: "https://www.researchgate.net/publication/349859112_Evaluating_the_Ener
 github: https://bitbucket.org/sbslab-zuo/scc-smart-city
 doi: 10.1007/s12273-021-0765-z
 category: paper
+projects_handle: false
 # Note: 'published' is a Jekyll keyword and does not refer to whether the paper is published, but rather to whether this Markdown should be part of the rendered site.
 published: true
 preprint: false
@@ -26,7 +27,9 @@ tags: [energy impact evaluation, energy efficiency measure, medium office, energ
 ---
 {% include JB/setup %}
 
-# Abstract 
+<div class="bigspacer"></div>
+<div class="head">Abstract</div>
+<div class="spacer"></div>
 
 Quantifying the energy savings of various energy efficiency measures (EEMs) for an energy retrofit 
 project often necessitates an energy audit and detailed whole building energy modeling to evaluate 
@@ -47,7 +50,9 @@ also vary by climate zone and EPI; for example, improved opaque envelope insulat
 of cooling and heating systems are found to have a high energy impact in cold and hot climates.
 
 
-# BibTeX Citation
+<div class="bigspacer"></div>
+<div class="head">BibTeX Citation</div>
+<div class="spacer"></div>
 
 ```
 @ARTICLE{Ye2021,

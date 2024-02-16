@@ -1,6 +1,6 @@
 ---
 layout: paper
-title: "Ecosystem-Level Biomimicry for the Built Environment: Adopting Systems Ecology Principles for the Control of Heterogeneous Energy Systems"
+title: "Ecosystem-level biomimicry for the built environment: adopting systems ecology principles for the control of heterogeneous energy systems"
 year: "2023"
 shortref: "Hinkelman et al. <i>COBEE Conference</i> 2023"
 nickname: biomimetic-control-cobee
@@ -16,6 +16,7 @@ pdflink: "https://www.researchgate.net/publication/373664178_Ecosystem-Level_Bio
 github: 
 doi: 10.1007/978-981-19-9822-5_284
 category: paper
+projects_handle: biceps
 # Note: 'published' is a Jekyll keyword and does not refer to whether the paper is published, but rather to whether this Markdown should be part of the rendered site.
 published: true
 preprint: false
@@ -26,7 +27,9 @@ tags: [biomimicry, building controls, interconnected energy systems, modelica, r
 ---
 {% include JB/setup %}
 
-# Abstract 
+<div class="bigspacer"></div>
+<div class="head">Abstract</div>
+<div class="spacer"></div>
 
 This paper presents, to our knowledge, the first system-level engineering study to bio-mimic the 
 cybernetics and flow dynamics of energy resources in natural ecosystems for the control of heterogeneous 
@@ -49,7 +52,9 @@ essential, BPS control may help communities meet their sustainability and resili
 transition towards fully distributed and renewable energy grids.
 
 
-# BibTeX Citation
+<div class="bigspacer"></div>
+<div class="head">BibTeX Citation</div>
+<div class="spacer"></div>
 
 ```
 @inproceedings{Hinkelman2023COBEE,
