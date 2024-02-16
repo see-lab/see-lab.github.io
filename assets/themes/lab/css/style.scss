@@ -341,15 +341,21 @@ strong {
 }
 
 .title {
+	font-size: 30px; 
+	line-height: 35px;
+	font-weight: 400;
+}
+
+.membertitle {
 	font-size: 45px; 
 	line-height: 50px;
-	font-weight: 100;
+	font-weight: 300;
 }
 
 .bigtitle {
 	font-size: 60px; 
 	line-height: 65px;
-	font-weight: 100;
+	font-weight: 300;
 }
 
 @media all and (max-width: 500px) {
@@ -370,7 +376,7 @@ strong {
 }
 
 .head {
-	font-size: $font-size-base*2;
+	font-size: $font-size-base*1.75;
 	font-weight: $font-weight-base;
 	line-height:30px;
 }
