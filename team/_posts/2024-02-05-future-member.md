@@ -11,4 +11,4 @@ scholar:
 image: /assets/images/team/future-member.png
 alum: false
 ---
-Join the SEE Lab!
+Please see our available **[Openings](/news/openings)** to join the SEE Lab!
