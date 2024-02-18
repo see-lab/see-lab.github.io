@@ -155,7 +155,7 @@
 			<div class="bigspacer"></div>
 			<div class="head">News</div>
 			<div class="spacer"></div>
-			{% for post in site.categories.blog %}
+			{% for post in site.categories.news %}
 				{% if member.handle == post.author_handle %}
 					<p><a href="{{ post.url }}" class="off">{{ post.title }}</a>
 				{% endif %}
