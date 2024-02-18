@@ -8,7 +8,7 @@ email: khinkelman@psu.edu
 linkedin: kathryn-hinkelman-96394b85
 researchgate: Kathryn-Hinkelman-2
 github: khinkelman
-scholar: citations?user=ZB1OQFAAAAAJ&hl=en&authuser=
+scholar: ZB1OQFAAAAAJ&hl=en&oi=ao
 orcid: 0000-0002-8297-6036
 image: /assets/images/team/kathryn-hinkelman-square.jpg
 cv: /assets/pdfs/khinkelman-cv.pdf
