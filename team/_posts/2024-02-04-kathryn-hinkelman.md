@@ -4,7 +4,7 @@ title: "Kathryn Hinkelman"
 position: Principal Investigator
 nickname: Katy
 handle: kgh
-email: khinkelman@psu.edu
+email: kathryn.hinkelman@uvm.edu
 linkedin: kathryn-hinkelman-96394b85
 researchgate: Kathryn-Hinkelman-2
 github: khinkelman
