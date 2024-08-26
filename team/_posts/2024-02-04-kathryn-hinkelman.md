@@ -8,14 +8,14 @@ email: kathryn.hinkelman@uvm.edu
 linkedin: kathryn-hinkelman-96394b85
 researchgate: Kathryn-Hinkelman-2
 github: khinkelman
-scholar: ZB1OQFAAAAAJ&hl=en&oi=ao
+scholar: ZB1OQFAAAAAJ&hl=en
 orcid: 0000-0002-8297-6036
 image: /assets/images/team/kathryn-hinkelman-square.jpg
 cv: /assets/pdfs/khinkelman-cv.pdf
 alum: false
 ---
-Dr. Kathryn Hinkelman (Katy) is a new Assistant Professor of [Environmental Engineering] at the [University of Vermont],
-joining the UVM faculty in Fall 2024 following a position as a Postdoctoral Scholar at 
+Dr. Kathryn Hinkelman (Katy) is an Assistant Professor of [Environmental Engineering] at the [University of Vermont].
+She joined the UVM faculty in Fall 2024 following a position as a Postdoctoral Scholar at 
 [Pennsylvania State University][PSU] (PSU).
 
 Dr. Hinkelman received her Ph.D. in [Architectural Engineering][AE] 
