@@ -3,7 +3,7 @@ layout: project
 title: "Garden Alleys With Application In Makassar City"
 handle: gardenAlleys
 author_handle: kgh
-image: /assets/images/projects/smart-garden-alley.png
+image: /assets/images/projects/smart-garden-alley.jpg
 sponsor: ""
 category: projects
 tags: [food-energy-water nexus, urban gardening, smart cities, systems thinking]
@@ -12,7 +12,7 @@ tags: [food-energy-water nexus, urban gardening, smart cities, systems thinking]
 
 &nbsp;
 
-<img src="/assets/images/projects/smart-garden-alley.png" alt="Makassar, Indonesia Garden Alleys" style="width:75%;"/>
+<img src="/assets/images/projects/smart-garden-alley.jpg" alt="Makassar, Indonesia Garden Alleys" style="width:75%;"/>
 
 <div class="bigspacer"></div>
 <div class="head">Project Description</div>
