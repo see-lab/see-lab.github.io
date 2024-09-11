@@ -4,7 +4,7 @@ title: "Garden Alleys With Application In Makassar City"
 handle: gardenAlleys
 author_handle: kgh
 image: /assets/images/projects/smart-garden-alley.jpg
-sponsor: ""
+sponsor: "UVM: REU; Penn State: US NSF & DOS, Bank of Indonesia"
 category: projects
 tags: [food-energy-water nexus, urban gardening, smart cities, systems thinking]
 ---
