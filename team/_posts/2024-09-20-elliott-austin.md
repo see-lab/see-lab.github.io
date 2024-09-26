@@ -10,7 +10,7 @@ linkedin:
 github: 
 scholar: 
 orcid: 
-image: /assets/images/team/elliott-austin.png
+image: /assets/images/team/default-member.png
 cv: 
 alum: false
 ---
