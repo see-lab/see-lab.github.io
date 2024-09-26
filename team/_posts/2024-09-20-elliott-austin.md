@@ -4,9 +4,9 @@ title: "Elliott Austin"
 position: Undergraduate Researcher
 nickname: Elliott
 handle: eaus
-email: elliott.austin@uvm.edu
+email: 
 twitter: 
-linkedin: elliott-austin-750838217
+linkedin: 
 github: 
 scholar: 
 orcid: 
