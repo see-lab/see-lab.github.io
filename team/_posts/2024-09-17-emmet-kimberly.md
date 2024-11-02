@@ -10,7 +10,7 @@ linkedin:
 github: 
 scholar: 
 orcid: 
-image: /assets/images/team/Emmet-Kimberly.png
+image: /assets/images/team/Emmet-Kimberly.jpg
 cv: 
 alum: false
 ---
