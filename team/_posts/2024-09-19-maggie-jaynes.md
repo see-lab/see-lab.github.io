@@ -10,7 +10,7 @@ linkedin:
 github: 
 scholar: 
 orcid: 
-image: /assets/images/team/Maggie-jaynes.jpg
+image: /assets/images/team/maggie-jaynes.jpg
 cv: 
 alum: false
 ---
