@@ -3,7 +3,7 @@ layout: news
 title: "Funding Awarded!"
 author: "Kathryn Hinkelman"
 author_handle: kgh
-image: /assets/images/news/news.png
+image: /assets/images/news/default-news.png
 category: news
 published: true
 redirect_from: /faq
