@@ -84,9 +84,11 @@ navorder: 1
     <div class="col-md-12">
         <ul class="past-projects-list">
             {% for project in site.categories.projects %}
+            {% if project.active == false %}
             <li>
                 <a href="{{ project.url }}" class="off">{{ project.title }}</a>
             </li>
+            {% endif %}
             {% endfor %}
         </ul>
     </div>
