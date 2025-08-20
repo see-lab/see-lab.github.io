@@ -1,6 +1,6 @@
 ---
 layout: member
-title: "Maggie Jaynes"
+title: "Margaret Jaynes"
 position: Undergraduate Researcher
 nickname: Maggie
 handle: mjay
