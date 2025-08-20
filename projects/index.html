@@ -35,41 +35,42 @@ navorder: 1
 <div class="title text-center">Active Projects</div>
 <div class="bigspacer"></div>
 
-{% for project in site.category.projects-active %}
-
-    {% cycle 'add rows': '<div class="row">
-    ', '', '' %}
-    <div class="col-md-4 projectbox">
-        <div class="media">
-            <a class="project-image" href="{{ project.url }}">
-                <img class="media-object member-photo" src="{{ project.image }}">
-            </a>
+{% for project in site.categories.projects %}
+    {% if project.active == true %}
+        {% cycle 'add rows': '<div class="row">
+        ', '', '' %}
+        <div class="col-md-4 projectbox">
+            <div class="media">
+                <a class="project-image" href="{{ project.url }}">
+                    <img class="media-object member-photo" src="{{ project.image }}">
+                </a>
+            </div>
+            <div class="smallhead media-heading">
+                <a href="{{ project.url }}" class="off">{{ project.title }}</a>
+            </div>
+            <div class="smallspacer"></div>
+            <!--Uncomment the below rows if want to add a small description to each page (currently not in page yaml)-->
+            <!--       <div class="note">
+                <a href="{{ project.url }}" class="off">{{ project.description }}</a>
+            </div>
+            -->
+            <div class="smallnote">
+                sponsor:
+                {{ project.sponsor }}
+            </div>
+            <div class="smallspacer"></div>
+            <div class="subtle smallnote">
+                tags:
+                {% for tag in project.tags %}
+                {{ tag }}{% if tag != project.tags.last %},{% endif %}
+                {% endfor %}
+            </div>
+            <div class="bigspacer"></div>
+            <div class="spacer"></div>
         </div>
-        <div class="smallhead media-heading">
-            <a href="{{ project.url }}" class="off">{{ project.title }}</a>
-        </div>
-        <div class="smallspacer"></div>
-        <!--Uncomment the below rows if want to add a small description to each page (currently not in page yaml)-->
-        <!--       <div class="note">
-            <a href="{{ project.url }}" class="off">{{ project.description }}</a>
-        </div>
-        -->
-        <div class="smallnote">
-            sponsor:
-            {{ project.sponsor }}
-        </div>
-        <div class="smallspacer"></div>
-        <div class="subtle smallnote">
-            tags:
-            {% for tag in project.tags %}
-            {{ tag }}{% if tag != project.tags.last %},{% endif %}
-            {% endfor %}
-        </div>
-        <div class="bigspacer"></div>
-        <div class="spacer"></div>
-    </div>
-    {% cycle 'close rows': '', '', '
+        {% cycle 'close rows': '', '', '
 </div>' %}
+    {% endif %}
 {% endfor %}
 {% cycle 'close rows': '', '</div>', '</div>' %}
 
@@ -82,7 +83,7 @@ navorder: 1
 <div class="row">
     <div class="col-md-12">
         <ul class="past-projects-list">
-            {% for project in site.category.projects-past %}
+            {% for project in site.categories.projects %}
             <li>
                 <a href="{{ project.url }}" class="off">{{ project.title }}</a>
             </li>
