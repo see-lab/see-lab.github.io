@@ -32,7 +32,7 @@ navorder: 1
 <div class="bigspacer"></div>
 
 <hr />
-<div class="title text-center">Projects</div>
+<div class="title text-center">Active Projects</div>
 <div class="bigspacer"></div>
 
 {% for project in site.categories.projects %}
@@ -72,5 +72,23 @@ navorder: 1
 </div>' %}
 {% endfor %}
 {% cycle 'close rows': '', '</div>', '</div>' %}
+
+<div class="bigspacer"></div>
+
+<hr />
+<div class="title text-center">Past Projects</div>
+<div class="bigspacer"></div>
+
+<div class="row">
+    <div class="col-md-12">
+        <ul class="past-projects-list">
+            {% for project in site.categories.past-projects %}
+            <li>
+                <a href="{{ project.url }}" class="off">{{ project.title }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
 
 <div class="bigspacer"></div>
