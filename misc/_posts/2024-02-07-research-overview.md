@@ -3,7 +3,7 @@ layout: default
 title: "The SEE Lab Research Overview"
 category: misc
 overview: true
-image: /assets/images/projects/research-overview.pdf
+image: /assets/images/projects/research-overview.png
 ---
 The **Sustainable Energy and Environments Laboratory** aims to develop **clean, resilient, and equitable
 energy systems** at the nexus of **built and natural environments** to support the well-being of humans and ecosystems.
