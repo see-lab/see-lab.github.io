@@ -1,4 +1,3 @@
-
 {% assign member = page %}
 
 <script src="https://kit.fontawesome.com/8ce100ea2b.js" crossorigin="anonymous"></script>
@@ -107,10 +106,11 @@
 		
 		{% assign lastname = member.title | split: ' ' | last %}
 
+        {% assign projectsq = false %}
         {% for project in site.categories.projects %}
-        {% if member.handle == project.author_handle %}
-        {% assign projectsq = true %}
-        {% endif %}
+            {% if member.handle == project.author_handle and project.active == true %}
+                {% assign projectsq = true %}
+            {% endif %}
         {% endfor %}
 
 		{% if projectsq == true %}
@@ -118,8 +118,8 @@
 			<div class="head">Research Projects</div>
 			<div class="spacer"></div>
 			{% for project in site.categories.projects %}
-				{% if member.handle == project.author_handle %}
-					<p><a href="{{ project.url }}" class="off">{{ project.title }}</a>
+				{% if member.handle == project.author_handle and project.active == true %}
+					<p><a href="{{ project.url }}" class="off">{{ project.title }}</a></p>
 				{% endif %}
 			{% endfor %}
 		{% endif %}	
@@ -164,4 +164,4 @@
 		
 	</div>			
 	<div class="col-md-1"></div>
-</div>	
+</div>
