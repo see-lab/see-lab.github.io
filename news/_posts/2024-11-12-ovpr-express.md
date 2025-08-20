@@ -3,11 +3,10 @@ layout: news
 title: "Funding Awarded!"
 author: "Kathryn Hinkelman"
 author_handle: kgh
-image: /assets/images/news/default-news.png
+image: /assets/images/news/UVM-Shield.png
 category: news
 published: true
-redirect_from: /faq
-tags: [lab]
+tags: [funding]
 ---
 
 <div class="bigspacer"></div>
