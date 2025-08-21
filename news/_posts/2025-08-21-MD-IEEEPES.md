@@ -23,12 +23,12 @@ Ph.D. student [**Malihe Davari**](https://www.theseelab.org/team/malihe-davari) 
 
 The work was conducted in collaboration with [**Université Savoie Mont Blanc**](https://www.univ-smb.fr/en/) and focuses on the architectural design of multi-energy systems to enhance self-sufficiency and sustainability at the district level.
 
-For more information on this project, visit [**this research page**](/projects/_posts/2024-04-09-savoie.md).
+For more information on this project, visit [**this research page**](https://www.theseelab.org/projects/savoie).
 
 <div class="bigspacer"></div>
 <div class="head">Participating Authors</div>
 <div class="spacer"></div>
 
-- [Malihe Davari](/team/_posts/2025-01-18-malihe-davari.md)
-- [Kathryn Hinkelman](/team/_posts/2024-02-04-kathryn-hinkelman.md)
+- [Malihe Davari](https://www.theseelab.org/team/malihe-davari)
+- [Kathryn Hinkelman](https://www.theseelab.org/team/kathryn-hinkelman)
 - [Jaume Fito, LOICE, Université Savoie Mont Blanc](https://www.univ-smb.fr/locie/en/jaume-fito-membre-du-locie/)
