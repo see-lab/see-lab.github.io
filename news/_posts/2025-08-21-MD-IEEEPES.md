@@ -10,18 +10,18 @@ tags: [conference,poster]
 ---
 
 <div class="bigspacer"></div>
-<div class="head">Poster Presentation on Modeling Coupled Thermal-Electrical Systems with Savoie </div>
+<div class="head">Poster Presentation on Modeling Coupled Thermal-Electrical Systems with Savoie Mont Blanc, France </div>
 <div class="spacer"></div>
 
-Ph.D. student [**Malihe Davari**](https://www.theseelab.org/team/malihe-davari) attended the **IEEE Power & Energy Society General Meeting 2025**, held in July 2025 in Austin, USA, where she presented her research as a poster titled **"Optimal Design of Coupled District Energy and Microgrid Systems in France's Bourget-du-Lac District."**
+Ph.D. student [**Malihe Davari**](https://www.theseelab.org/team/malihe-davari) attended the [**IEEE Power & Energy Society General Meeting 2025**](https://pes-gm.org/2025-austin/), held in July 2025 in Austin, USA, where she presented her research as a poster titled **"Optimal Design of Coupled District Energy and Microgrid Systems in France's Bourget-du-Lac District."**
 
-<div class="spacer"></div>
+<div class="bigspacer"></div>
 
 <img src="/assets/images/news/360-IEEE-PES-General-Meeting-2025-Austin.jpg" alt="Malihe presents her poster at the 2025 IEEE PES GM." style="width:75%;"/>
 
-<div class="spacer"></div>
+<div class="bigspacer"></div>
 
-The work was conducted in collaboration with **Université Savoie Mont Blanc** and focuses on the architectural design of multi-energy systems to enhance self-sufficiency and sustainability at the district level.
+The work was conducted in collaboration with [**Université Savoie Mont Blanc**](https://www.univ-smb.fr/en/) and focuses on the architectural design of multi-energy systems to enhance self-sufficiency and sustainability at the district level.
 
 For more information on this project, visit [**this research page**](/projects/_posts/2024-04-09-savoie.md).
 
