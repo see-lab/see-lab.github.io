@@ -3,7 +3,7 @@ layout: news
 title: "Malihe presents at the IEEE Power & Energy Society GM in Austin, TX"
 author: Malihe Davari
 author_handle: md
-image: /assets/images/news/news.png
+image: /assets/images/news/ieeepes.jpeg
 category: news
 published: true
 tags: [conference,poster]
@@ -15,7 +15,11 @@ tags: [conference,poster]
 
 Ph.D. student [**Malihe Davari**](https://www.theseelab.org/team/malihe-davari) attended the **IEEE Power & Energy Society General Meeting 2025**, held in July 2025 in Austin, USA, where she presented her research as a poster titled **"Optimal Design of Coupled District Energy and Microgrid Systems in France's Bourget-du-Lac District."**
 
-![alt text](/assets/images/news/360-IEEE-PES-General-Meeting-2025-Austin.jpg "Malihe presents her poster at the 2025 IEEE PES GM.")
+<div class="spacer"></div>
+
+<img src="/assets/images/news/360-IEEE-PES-General-Meeting-2025-Austin.jpg" alt="Malihe presents her poster at the 2025 IEEE PES GM." style="width:75%;"/>
+
+<div class="spacer"></div>
 
 The work was conducted in collaboration with **Université Savoie Mont Blanc** and focuses on the architectural design of multi-energy systems to enhance self-sufficiency and sustainability at the district level.
 
