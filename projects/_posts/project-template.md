@@ -4,6 +4,7 @@ title: "title"
 tagline: "tagline"
 handle: handle
 author_handle: handle1, handle2
+student_handle: 
 url: 
 image: /assets/images/projects/project-blank.svg
 sponsor: sponsor
