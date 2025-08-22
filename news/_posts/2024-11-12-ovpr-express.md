@@ -1,8 +1,8 @@
 ---
 layout: news
 title: "Funding Awarded!"
-author: 
-author_handle: 
+author: Kathryn Hinkelman
+author_handle: kgh
 image: /assets/images/news/UVM-Shield.png
 category: news
 published: true
