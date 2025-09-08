@@ -2,14 +2,14 @@
 layout: member
 title: Anastasija Mensikova
 position: Ph.D. Student
-nickname: Nickname
-handle: hnd
+nickname: Anastasija
+handle: am
 email: anastasija.mensikova@uvm.edu
-twitter: twitter-handle
+twitter: 
 linkedin: Anastasija Mensikova #https://www.linkedin.com/in/anastasija-mensikova/
 github: amensiko
-scholar: scholar-id
-orcid: 0000-0000-0000-0000
+scholar: 
+orcid: 
 image: /assets/images/team/anastasija-mensikova-photo.jpg
 cv: /assets/pdfs/anastasija-mensikova-cv.pdf
 alum: false
