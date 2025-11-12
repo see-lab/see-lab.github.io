@@ -10,7 +10,7 @@ linkedin:
 github: 
 scholar: 
 orcid: 
-image: /assets/images/team/nathan-kellison-miller.jpeg
+image: /assets/images/team/nathan-kellison-miller.png
 cv: /assets/pdfs/nathan-kellison-miller-cv.pdf
 alum: false
 ---
