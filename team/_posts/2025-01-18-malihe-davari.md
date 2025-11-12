@@ -11,7 +11,7 @@ github: MaliheDavari
 scholar: 
 orcid: 
 image: /assets/images/team/malihe-davari.jpg
-cv: /assets/pdfs/Malihe_Davari_CV.pdf
+cv: /assets/pdfs/malihe-davari-cv.pdf
 alum: false
 ---
 
