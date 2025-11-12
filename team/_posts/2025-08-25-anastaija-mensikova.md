@@ -10,7 +10,7 @@ linkedin: Anastasija Mensikova #https://www.linkedin.com/in/anastasija-mensikova
 github: amensiko
 scholar: 
 orcid: 
-image: /assets/images/team/anastasija-mensikova-photo.jpg
+image: /assets/images/team/anastasija-mensikova.jpg
 cv: /assets/pdfs/anastasija-mensikova-cv.pdf
 alum: false
 ---
