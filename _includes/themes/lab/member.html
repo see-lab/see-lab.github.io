@@ -106,7 +106,7 @@
 		
 		{% assign lastname = member.title | split: ' ' | last %}
 
-        {% assign projectsq = false %}
+        <!-- {% assign projectsq = false %} -->
         {% for project in site.categories.projects %}
             {% if member.handle == project.student_handle and project.active == true %}
                 {% assign projectsq = true %}
