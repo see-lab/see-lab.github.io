@@ -118,7 +118,7 @@
 			<div class="head">Research Projects</div>
 			<div class="spacer"></div>
 			{% for project in site.categories.projects %}
-				{% if member.handle == project.author_handle and project.active == true %}
+				{% if member.handle == project.student_handle and project.active == true %}
 					<p><a href="{{ project.url }}" class="off">{{ project.title }}</a></p>
 				{% endif %}
 			{% endfor %}
