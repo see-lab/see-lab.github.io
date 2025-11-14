@@ -108,7 +108,7 @@
 
         {% assign projectsq = false %}
         {% for project in site.categories.projects %}
-            {% if member.handle == project.author_handle and project.active == true %}
+            {% if member.handle == project.student_handle and project.active == true %}
                 {% assign projectsq = true %}
             {% endif %}
         {% endfor %}
