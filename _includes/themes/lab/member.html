@@ -108,7 +108,7 @@
 
         <!-- {% assign projectsq = false %} -->
         {% for project in site.categories.projects %}
-            {% if member.handle == project.student_handle and project.active == true %}
+            {% if project.student_handle contains member.handle and project.active == true %}
                 {% assign projectsq = true %}
             {% endif %}
         {% endfor %}
@@ -118,7 +118,7 @@
 			<div class="head">Research Projects</div>
 			<div class="spacer"></div>
 			{% for project in site.categories.projects %}
-				{% if member.handle == project.student_handle and project.active == true %}
+				{% if project.student_handle contains member.handle and project.active == true %}
 					<p><a href="{{ project.url }}" class="off">{{ project.title }}</a></p>
 				{% endif %}
 			{% endfor %}

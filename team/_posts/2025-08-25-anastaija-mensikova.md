@@ -3,10 +3,10 @@ layout: member
 title: Anastasija Mensikova
 position: Ph.D. Student
 nickname: Anastasija
-handle: am
+handle: amen
 email: anastasija.mensikova@uvm.edu
 twitter: 
-linkedin: Anastasija Mensikova #https://www.linkedin.com/in/anastasija-mensikova/
+linkedin: anastasija-mensikova
 github: amensiko
 scholar: 
 orcid: 

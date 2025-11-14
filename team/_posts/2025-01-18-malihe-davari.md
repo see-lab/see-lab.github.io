@@ -3,7 +3,7 @@ layout: member
 title: "Malihe Davari"
 position: Ph.D. Student
 nickname: Malihe
-handle: md
+handle: mdav
 email: Malihe.Davari@uvm.edu
 linkedin: malihe-davari
 researchgate: 
