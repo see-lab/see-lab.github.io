@@ -62,14 +62,12 @@ To see any of the tools under development, please visit our GitHub repository at
         -->
         <div class="smallspacer"></div>
         <div class="smallnote">
-            Updated
-            <a class="off" href="{{ tool.commits.first.url }}">
-                {{ tool.commits.first.date | date: "%-d %b %Y" }}
-            </a>
-            by
-            <a class="off" href="{{ tool.commits.first.author_url }}">
-                {{ tool.commits.first.author_login }}
-            </a>
+            {% if tool.repo %}
+                updated by:
+            {% endif %}
+            {% if tool.author %}
+            {{ tool.author }}
+            {% endif %}
         </div>
         <div class="bigspacer"></div>
         <div class="spacer"></div>
