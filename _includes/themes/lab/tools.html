@@ -1,9 +1,3 @@
-{% for test in site.data.tools %}
-	{% if test.title == page.tool %}
-		{% assign tool = test %}
-	{% endif %}
-{% endfor %}
-
 <div class="page-header">
     <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
     <p>{{ page.description }}</p>
@@ -12,48 +6,76 @@
 <div class="row">
     <div class="col-lg-3">
         <div class="bigspacer"></div>
+        {% if page.repo %}
         <div class="smallhead">
             Source code
         </div>
         <div class="pad-left note">
             <div class="smallspacer"></div>
             <i class="fa fa-cog fa-fw"></i>
-            <a class="off" href="https://github.com/{{ tool.repo }}">github.com/{{ tool.repo | replace: "/", "/<wbr>" | replace: "_", "_<wbr>" }}</a>
+            <a class="off" href="https://github.com/{{ page.repo }}">github.com/{{ page.repo | replace: "/", "/<wbr>" | replace: "_", "_<wbr>" }}</a>
         </div>
         <div class="bigspacer"></div>
+        {% endif %}
+        {% if page.repo %}
         <div class="smallhead">
             Contributors
         </div>
         <div class="pad-left note">
-            {% for contributor in tool.contributors %}
             <div class="smallspacer"></div>
-            <div>
-                <a class="off" href="{{ contributor.url }}">
-                    <img class="pull-left avatar" src="{{ contributor.avatar }}">
-                    <div class="handlebox" style="padding-left:5px;" ">
-                        {{ contributor.login }}
-                    </div>
-                </a>
-            </div>
-            {% endfor %}
+            {% assign repo_name = page.repo %}
+            {% assign repo_data = site.github.public_repositories | where: "full_name", repo_name | first %}
+            {% if repo_data and repo_data.contributors %}
+                {% for contributor in repo_data.contributors limit: 5 %}
+                <div class="smallspacer"></div>
+                <div>
+                    <a class="off" href="{{ contributor.html_url }}">
+                        <img class="pull-left avatar" src="{{ contributor.avatar_url }}" style="width: 24px; height: 24px; border-radius: 12px; margin-right: 8px;">
+                        <div class="handlebox" style="padding-left: 32px;">
+                            {{ contributor.login }}
+                        </div>
+                    </a>
+                </div>
+                {% endfor %}
+            {% elsif page.contributors %}
+                <div>{{ page.contributors }}</div>
+            {% else %}
+                <div><em>Loading contributor data...</em></div>
+            {% endif %}
         </div>
         <div class="bigspacer"></div>
+        {% elsif page.contributors %}
+        <div class="smallhead">
+            Contributors
+        </div>
+        <div class="pad-left note">
+            <div class="smallspacer"></div>
+            <div>{{ page.contributors }}</div>
+        </div>
+        <div class="bigspacer"></div>
+        {% endif %}
+        {% if page.repo %}
         <div class="smallhead">
             Latest commits
         </div>
         <div class="pad-left smallnote">
-            <ul class="list-unstyled">
-                {% for commit in tool.commits %}
-                <div class="smallspacer"></div>
-                <li>
-                    <i class="fa fa-check-square-o fa-fw"></i>
-                    <a class="off" href="{{ commit.url }}">
-                        {{ commit.date | date_to_string }} - <span class="text-gray">{{ commit.message | escape }}</span>
-                    </a>
-                </li>
-                {% endfor %}
-            </ul>
+            <div class="smallspacer"></div>
+            {% assign repo_name = page.repo %}
+            {% assign commits = site.github.public_repositories | where: "full_name", repo_name | first %}
+            {% if commits %}
+                <ul class="list-unstyled">
+                    <li>
+                        <i class="fa fa-check-square-o fa-fw"></i>
+                        <a class="off" href="{{ commits.html_url }}/commits">
+                            View commit history on GitHub
+                        </a>
+                    </li>
+                </ul>
+            {% else %}
+                <p><em>Loading commit data...</em></p>
+            {% endif %}
         </div>
+        {% endif %}
         <div class="spacer"></div>
 
         {% for page in site.pages %}

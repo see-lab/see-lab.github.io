@@ -15,7 +15,6 @@ tags: [Modelica,Energy Hub,Open-Source]
 
 &nbsp;
 
-<div class="spacer"></div>
 <div class="smallhead">Package Structure</div>
 <div class="spacer"></div>
 
