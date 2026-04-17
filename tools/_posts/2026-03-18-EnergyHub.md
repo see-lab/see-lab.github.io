@@ -5,7 +5,7 @@ description: "Modeling package for designing and optimizing renewable energy hub
 published: true
 category: tools
 image: /assets/images/tools/EH-Models.png
-repo: https://github.com/see-lab/modelica-eh
+repo: see-lab/modelica-eh
 contributors: khinkelman
 contributor-handles: kgh, mdav
 project-handles: savoie,nsf-eri
@@ -14,6 +14,10 @@ tags: [Modelica,Energy Hub,Open-Source]
 {% include JB/setup %}
 
 &nbsp;
+
+<div class="spacer"></div>
+<div class="smallhead">Package Structure</div>
+<div class="spacer"></div>
 
 <img src="/assets/images/tools/EH-Package.png" alt="EnergyHub modeling package structure." style="width:50%;"/>
 
