@@ -2,12 +2,13 @@
 layout: tools
 title: "Modelica EnergyHub Package"
 description: "Modeling package for designing and optimizing renewable energy hubs"
+author: "Kathryn Hinkelman"
+author_handle: kgh
 published: true
 category: tools
 image: /assets/images/tools/EH-Models.png
 repo: see-lab/modelica-eh
-contributors: khinkelman
-contributor-handles: kgh, mdav
+contributor-handles: kgh,mdav
 project-handles: savoie,nsf-eri
 tags: [Modelica,Energy Hub,Open-Source]
 ---
