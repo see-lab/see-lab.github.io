@@ -11,6 +11,7 @@ Thumbs.db
 .rbenv-version
 .rvmrc
 .env
+.env.example
 
 # Local configuration files
 serve.sh
