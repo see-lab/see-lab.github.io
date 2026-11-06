@@ -10,7 +10,7 @@ linkedin: https://www.linkedin.com/in/adams-n/
 github: adamsn20
 # scholar: scholar-id
 # orcid: 0000-0000-0000-0000
-image: /assets/images/team/default-member.png
+image: /assets/images/team/nathaniel-adams.jpg
 # cv: #/assets/pdfs/yourname-cv.pdf
 alum: false
 ---
